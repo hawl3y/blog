@@ -1,0 +1,71 @@
+site_name: Hawley
+copyright: >-
+  © 2025 Hawley | Built with 
+  <a href="https://squidfunk.github.io/mkdocs-material/" 
+  target="_blank">Material for MkDocs</a>
+
+site_description: >-
+  CISSP | Fortune 500 Director, Business Partner | 
+  M.S. Cybersecurity Graduate Student @ Georgia Tech
+
+theme:
+  name: material
+  logo: images/hawley-logo.svg
+  favicon: images/favicon.ico
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.expand
+    - navigation.indexes
+    - search
+  palette:
+    # Auto mode (follows system preference)
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+      primary: teal
+      accent: amber
+    # Light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+      primary: teal
+      accent: amber
+    # Dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+      primary: teal
+      accent: amber
+
+nav:
+  - Home: index.md
+  - Portfolio: portfolio/index.md
+  - Blog: blog/index.md
+  - About: about.md
+
+extra_css:
+  - stylesheets/extra.css
+
+markdown_extensions:
+  - attr_list
+  - md_in_html
+
+plugins:
+  - blog
+  - search
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/in/joechawley/
+    - icon: fontawesome/brands/x-twitter
+      link: https://www.x.com/Hawley/
+    - icon: fontawesome/brands/github
+      link: https://github.com/hawl3y
