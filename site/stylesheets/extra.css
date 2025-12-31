@@ -1,0 +1,135 @@
+/* ====================================
+   Main
+   ==================================== */
+.md-sidebar--primary .md-nav__item--active {
+  display: none !important;
+}
+
+.md-typeset h1:first-of-type {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 4rem 0 2rem;
+  line-height: 1.1;
+}
+
+.md-typeset div.sub-heading {
+  font-size: 1.35rem;
+  max-width: 900px;
+  margin: 0 auto 3rem;
+  opacity: 0.88;
+  line-height: 1.35;
+}
+
+.md-typeset div.sub-heading-abt {
+  font-size: 1.1rem;
+}
+
+@media (max-width: 768px) {
+  .md-typeset h1:first-of-type {
+    font-size: 3rem;
+    margin: 3rem 0 1.5rem;
+    text-align: center;
+  }
+  .md-typeset div.sub-heading {
+    font-size: 1.1rem;
+    text-align: center;
+  }
+  .md-typeset div.sub-heading-abt {
+  text-align: center;
+}
+}
+
+@media (min-width: 769px) {
+  .text-center {
+    text-align: center;
+  }
+  .md-typeset div.sub-heading {
+    text-align: center;
+  }
+}
+
+/* ====================================
+   Home - Joe + Daisy photo
+   ==================================== */
+.md-typeset img[alt="Joe Hawley with his miniature dachshund Daisy"] {
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  width: 320px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  float: right;
+  margin-left: 4rem;
+  margin-bottom: 2rem;
+  margin-top: 1rem;
+}
+
+@media (max-width: 960px) {
+  .md-typeset img[alt="Joe Hawley with his miniature dachshund Daisy"] {
+    float: none;
+    margin: 0 auto 2.5rem;
+    display: block;
+    width: 280px;
+  }
+}
+
+/* ====================================
+   About
+   ==================================== */
+.md-typeset img[alt="Joe Hawley professional headshot"] {
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  width: 280px;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  float: left;
+  margin-right: 2.1rem;
+  margin-bottom: 1.3rem;
+  margin-top: 0.8rem;
+}
+
+.md-content .md-content__inner {
+  margin-top: 0 !important;
+  padding-top: 1.5rem;
+}
+
+.md-typeset h1 {
+  margin-top: 0 !important;
+  padding-top: 0;
+}
+
+@media (max-width: 960px) {
+  .md-typeset img[alt="Joe Hawley professional headshot"] {
+    float: none;
+    margin: 0 auto 2.5rem;
+    display: block;
+    width: 260px;
+  }
+}
+
+/* ====================================
+   Portfolio
+   ==================================== */
+.grid.cards ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.grid.cards li {
+  text-align: center;
+  margin-bottom: 4rem;
+  padding: 0 1rem;
+}
+
+.grid.cards li img {
+  border-radius: 16px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  object-fit: cover;
+  aspect-ratio: 16 / 9;
+  display: block;
+  margin: 0 auto 1.5rem;
+}
