@@ -121,6 +121,14 @@
   text-align: center;
   margin-bottom: 4rem;
   padding: 0 1rem;
+
+  background: rgba(255, 255, 255, 0.119);
+}
+
+@media (prefers-color-scheme: dark) {
+  .grid.cards li {
+    background: rgba(20, 20, 40, 0.119);
+  }
 }
 
 .grid.cards li img {
@@ -133,4 +141,26 @@
   aspect-ratio: 16 / 9;
   display: block;
   margin: 0 auto 1.5rem;
+}
+
+/* ====================================
+   Background image
+   ==================================== */
+.md-container {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../images/site-bg.jpg');
+}
+/* Switch to dark image */
+[data-md-color-scheme="slate"] .md-container {
+    background-image: url('../images/site-bg-dark.jpg');
+}
+
+/* Mobile */
+@media screen and (max-width: 768px) {
+    .md-container {
+        background-attachment: scroll;
+    }
 }
