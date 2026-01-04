@@ -1,5 +1,5 @@
 ---
-title: Building a Compact Homelab – Fractal Terra with Ryzen 7
+title: Building a Compact Homelab
 date: 2026-01-03
 author: Joe Hawley
 description: Documenting the build of a quiet, efficient small-form-factor homelab server using the Fractal Design Terra Jade case and AMD Ryzen 7 9700X for virtualization, containers, development, and network security tasks.

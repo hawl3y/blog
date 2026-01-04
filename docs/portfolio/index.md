@@ -6,12 +6,12 @@ Projects and noteworthy achievements
 
 <div class="grid cards" markdown>
 
-- ![AI Fluency Certification](../images/portfolio/ai-fluency.jpeg)
+- ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
   **AI Fluency Certification** · 2025  
   Completed M365 Copilot AI Fluency certification and capstone project.  
   [Learn more →](https://www.linkedin.com/posts/joechawley_aifluency-aiinaction-cybersecurity-activity-7412170711093645312-mrTE){ target="_new" rel="noopener" }
 
-  - ![Georgia Tech Acceptance Letter](../images/portfolio/gatech.jpg)
+- ![Georgia Tech Acceptance Letter](../images/portfolio/gatech.jpg)
   **Accepted to Georgia Tech** · 2025  
   Accepted into Georgia Tech’s Master of Science in Cybersecurity program!  
   [Learn more →](https://www.linkedin.com/posts/joechawley_georgiatech-omscybersecurity-cybersecurity-activity-7401021029134839808-k-PJ/){ target="_new" rel="noopener" }
@@ -26,7 +26,7 @@ Projects and noteworthy achievements
   How embracing my autism strengthened my cybersecurity career.  
   [Learn more →](https://www.thinkdigitalpartners.com/news/2025/09/09/how-embracing-my-autism-strengthened-my-cybersecurity-career/){ target="_new" rel="noopener" }
 
-- ![Enterprise Zero Trust Implementation](../images/portfolio/isc2-think-tank.png)
+- ![ISC2 Think Tank Panelist](../images/portfolio/isc2-think-tank.jpg)
   **ISC2 Think Tank Panelist** · 2025  
   "Embracing Neurodiversity  
   in Your Cyber Workforce"  

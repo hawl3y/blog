@@ -109,7 +109,7 @@
 }
 
 /* ====================================
-   Portfolio
+   Grid Cards
    ==================================== */
 .grid.cards ul {
   list-style: none;
@@ -130,25 +130,13 @@
   }
 }
 
-/*.grid.cards li img {
-  border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
-  width: 100%;
-  max-width: 600px;
-  height: auto;
-  object-fit: cover;
-  aspect-ratio: 16 / 9;
-  display: block;
-  margin: 0 auto 1.5rem;
-}*/
-
 .grid.cards li img {
   border-radius: 16px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   width: 100%;
   max-width: 600px;
   height: auto;
   object-fit: contain;
+  object-position: center;
   display: block;
   margin: 0 auto 1.5rem;
 }
