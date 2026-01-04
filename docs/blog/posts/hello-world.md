@@ -6,7 +6,7 @@ description: Launching my personal site – portfolio, blog, and thoughts on cyb
 tags: [introduction, cybersecurity-leadership, personal]
 ---
 
-# Hello, World! { .text-center }
+# Hello, World!
 
 In the spirit of every programmer's first program, this is my official "Hello, World!" post.
 

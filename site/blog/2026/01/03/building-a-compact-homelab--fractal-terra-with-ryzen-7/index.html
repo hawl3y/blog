@@ -6,31 +6,33 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="CISSP | Fortune 500 Director, Business Partner |  M.S. Cybersecurity Graduate Student @ Georgia Tech">
+        <meta name="description" content="Documenting the build of a quiet, efficient small-form-factor homelab server using the Fractal Design Terra Jade case and AMD Ryzen 7 9700X for virtualization, containers, development, and network security tasks.">
+      
+      
+        <meta name="author" content="Joe Hawley">
       
       
       
+        <link rel="prev" href="../../../../2025/12/30/hello-world--welcome-to-my-corner-of-the-internet/">
       
-      
-        <link rel="next" href="portfolio/">
       
       
         
       
       
-      <link rel="icon" href="images/favicon.ico">
+      <link rel="icon" href="../../../../../images/favicon.ico">
       <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.7.1">
     
     
       
-        <title>Hawley</title>
+        <title>Building a Compact Homelab – Fractal Terra with Ryzen 7 - Hawley</title>
       
     
     
-      <link rel="stylesheet" href="assets/stylesheets/main.484c7ddc.min.css">
+      <link rel="stylesheet" href="../../../../../assets/stylesheets/main.484c7ddc.min.css">
       
         
-        <link rel="stylesheet" href="assets/stylesheets/palette.ab4e12ef.min.css">
+        <link rel="stylesheet" href="../../../../../assets/stylesheets/palette.ab4e12ef.min.css">
       
       
 
@@ -49,9 +51,9 @@
       
     
     
-      <link rel="stylesheet" href="stylesheets/extra.css">
+      <link rel="stylesheet" href="../../../../../stylesheets/extra.css">
     
-    <script>__md_scope=new URL(".",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -76,7 +78,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#cybersecurity-leader" class="md-skip">
+        <a href="#building-a-compact-homelab-fractal-terra-with-ryzen-7" class="md-skip">
           Skip to content
         </a>
       
@@ -90,9 +92,9 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="." title="Hawley" class="md-header__button md-logo" aria-label="Hawley" data-md-component="logo">
+    <a href="../../../../.." title="Hawley" class="md-header__button md-logo" aria-label="Hawley" data-md-component="logo">
       
-  <img src="images/hawley-logo.svg" alt="logo">
+  <img src="../../../../../images/hawley-logo.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -109,7 +111,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Home
+              Building a Compact Homelab – Fractal Terra with Ryzen 7
             
           </span>
         </div>
@@ -216,11 +218,9 @@
   
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="." class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../../../../.." class="md-tabs__link">
         
   
   
@@ -239,7 +239,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="portfolio/" class="md-tabs__link">
+      <a href="../../../../../portfolio/" class="md-tabs__link">
         
   
   
@@ -256,9 +256,11 @@
   
   
   
+    
   
-    <li class="md-tabs__item">
-      <a href="blog/" class="md-tabs__link">
+  
+    <li class="md-tabs__item md-tabs__item--active">
+      <a href="../../../../" class="md-tabs__link">
         
   
   
@@ -277,7 +279,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="about/" class="md-tabs__link">
+      <a href="../../../../../about/" class="md-tabs__link">
         
   
   
@@ -301,7 +303,9 @@
           
             
               
-              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" >
+                
+              
+              <div class="md-sidebar md-sidebar--primary" data-md-component="sidebar" data-md-type="navigation" hidden>
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
                     
@@ -312,9 +316,9 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="." title="Hawley" class="md-nav__button md-logo" aria-label="Hawley" data-md-component="logo">
+    <a href="../../../../.." title="Hawley" class="md-nav__button md-logo" aria-label="Hawley" data-md-component="logo">
       
-  <img src="images/hawley-logo.svg" alt="logo">
+  <img src="../../../../../images/hawley-logo.svg" alt="logo">
 
     </a>
     Hawley
@@ -326,19 +330,10 @@
       
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../../../../.." class="md-nav__link">
         
   
   
@@ -354,7 +349,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -366,7 +360,7 @@
   
   
     <li class="md-nav__item">
-      <a href="portfolio/" class="md-nav__link">
+      <a href="../../../../../portfolio/" class="md-nav__link">
         
   
   
@@ -390,12 +384,14 @@
       
   
   
+    
+  
   
     
   
   
-    <li class="md-nav__item">
-      <a href="blog/" class="md-nav__link">
+    <li class="md-nav__item md-nav__item--active">
+      <a href="../../../../" class="md-nav__link">
         
   
   
@@ -422,7 +418,7 @@
   
   
     <li class="md-nav__item">
-      <a href="about/" class="md-nav__link">
+      <a href="../../../../../about/" class="md-nav__link">
         
   
   
@@ -450,6 +446,8 @@
             
             
               
+                
+              
               <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
                 <div class="md-sidebar__scrollwrap">
                   <div class="md-sidebar__inner">
@@ -462,6 +460,47 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#build-process-gallery" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build Process Gallery
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#parts-list" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Parts List
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#build-progress-so-far" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Build Progress So Far
+      
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -469,43 +508,256 @@
             
           
           
-            <div class="md-content" data-md-component="content">
-              
-              <article class="md-content__inner md-typeset">
-                
-                  
-
-
-
-<h1 class="text-center" id="cybersecurity-leader">Cybersecurity Leader</h1>
-<div class="sub-heading">
-<p>Fortune 500 Director | CISSP<br />
-M.S. Cybersecurity Graduate Student<br />
-@ Georgia Institute of Technology</p>
-</div>
-<p><img align="right" alt="Joe Hawley with his miniature dachshund Daisy" class="float-right" src="images/daddy-daisy.jpg" width="320" /></p>
-<p>I bridge cybersecurity and business value to guide risk-informed decisions that protect what matters while enabling innovation and growth.</p>
-<p>Neurodivergent, self-taught coder with 20+ years in MedTech, turned enterprise leader. Raised on a North Carolina farm, now calling New York home. Former DJ, passionate about Japanese culture (bucket list: summit Mt. Fuji), sci-fi fan, and proud dog dad to my miniature dachshund, Daisy.</p>
-<p>Welcome to my blog, thoughts on cybersecurity leadership, and occasional experiments.</p>
-
-
-
-
-
-
-
-  
-  
-
-
-
-
-
-
-                
-              </article>
+  <div class="md-content md-content--post" data-md-component="content">
+    <div class="md-sidebar md-sidebar--post" data-md-component="sidebar" data-md-type="navigation">
+      <div class="md-sidebar__scrollwrap">
+        <div class="md-sidebar__inner md-post">
+          <nav class="md-nav md-nav--primary">
+            <div class="md-post__back">
+              <div class="md-nav__title md-nav__container">
+                <a href="../../../../" class="md-nav__link">
+                  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11z"/></svg>
+                  <span class="md-ellipsis">
+                    Back to index
+                  </span>
+                </a>
+              </div>
             </div>
+            
+            <ul class="md-post__meta md-nav__list">
+              <li class="md-nav__item md-nav__item--section">
+                <div class="md-post__title">
+                  <span class="md-ellipsis">
+                    Metadata
+                  </span>
+                </div>
+                <nav class="md-nav">
+                  <ul class="md-nav__list">
+                    <li class="md-nav__item">
+                      <div class="md-nav__link">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"/></svg>
+                        <time datetime="2026-01-03 00:00:00+00:00" class="md-ellipsis">January 3, 2026</time>
+                      </div>
+                    </li>
+                    
+                    
+                    
+                      
+                      <li class="md-nav__item">
+                        <div class="md-nav__link">
+                          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"/></svg>
+                          <span class="md-ellipsis">
+                            
+                              4 min read
+                            
+                          </span>
+                        </div>
+                      </li>
+                    
+                  </ul>
+                </nav>
+              </li>
+            </ul>
+            
+          </nav>
           
+        </div>
+      </div>
+    </div>
+    <article class="md-content__inner md-typeset">
+      
+        
+  
+
+
+
+
+<h1 id="building-a-compact-homelab-fractal-terra-with-ryzen-7">Building a Compact Homelab: Fractal Terra with Ryzen 7</h1>
+<p><img alt="Building a Compact Homelab" class="float-right" src="../../../../../images/builds/jade/bliss.jpg" width="225" /></p>
+<p>This project documents the ongoing build of a small-form-factor (SFF) homelab server housed in the beautiful Fractal Design Terra Jade case (with walnut front panel). The primary goals are a <strong>quiet, power-efficient, always-on system</strong> capable of:</p>
+<ul>
+<li>KVM virtualization</li>
+<li>Docker/Podman containers</li>
+<li>Development work and graduate research</li>
+<li>Network IDS/IPS using Suricata</li>
+</ul>
+<!-- more -->
+
+<h2 id="build-process-gallery">Build Process Gallery</h2>
+<div class="grid cards">
+<ul>
+<li>
+<p><img alt="Box of Parts" loading="lazy" src="../../../../../images/builds/jade/00_boxed.jpg" />
+  <em>Box of parts</em></p>
+</li>
+<li>
+<p><img alt="Unboxed Boxes - Core Components" loading="lazy" src="../../../../../images/builds/jade/01_unboxed_boxes.jpg" />
+  <em>Unboxed boxes - Core components</em></p>
+</li>
+<li>
+<p><img alt="Boxes Unboxed - The Fun Begins" loading="lazy" src="../../../../../images/builds/jade/02_boxes_unboxed.jpg" />
+  <em>Boxes unboxed - The fun begins</em></p>
+</li>
+<li>
+<p><img alt="Corsair SF750" loading="lazy" src="../../../../../images/builds/jade/03_unboxed_psu.jpg" />
+  <em>Corsair SF750</em></p>
+</li>
+<li>
+<p><img alt="Noctua NH-L12S" loading="lazy" src="../../../../../images/builds/jade/04_unboxed_cpu_cooler.jpg" />
+  <em>Noctua NH-L12S</em></p>
+</li>
+<li>
+<p><img alt="Noctua NF-A12x25" loading="lazy" src="../../../../../images/builds/jade/05_unboxed_case_fan.jpg" />
+  <em>Noctua NF-A12x25</em></p>
+</li>
+<li>
+<p><img alt="G.SKILL Trident Z5 Neo RGB" loading="lazy" src="../../../../../images/builds/jade/06_unboxed_ram.jpg" />
+  <em>G.SKILL Trident Z5 Neo RGB</em></p>
+</li>
+<li>
+<p><img alt="AMD Ryzen 7 9700X" loading="lazy" src="../../../../../images/builds/jade/07_unboxed_cpu.jpg" />
+  <em>AMD Ryzen 7 9700X</em></p>
+</li>
+<li>
+<p><img alt="MSI MPG B850I Edge" loading="lazy" src="../../../../../images/builds/jade/08_unboxed_mobo.jpg" />
+  <em>MSI MPG B850I Edge</em></p>
+</li>
+<li>
+<p><img alt="CPU Installation" loading="lazy" src="../../../../../images/builds/jade/09_install_cpu.jpg" />
+  <em>CPU Installation</em></p>
+</li>
+<li>
+<p><img alt="RAM Installation" loading="lazy" src="../../../../../images/builds/jade/10_install_ram.jpg" />
+  <em>RAM Installation</em></p>
+</li>
+<li>
+<p><img alt="Cooler Brackets Installation" loading="lazy" src="../../../../../images/builds/jade/11_install_cpu_cooler_brackets.jpg" />
+  <em>Cooler Brackets Installation</em></p>
+</li>
+<li>
+<p><img alt="CPU Cooler Installation" loading="lazy" src="../../../../../images/builds/jade/12_install_cpu_cooler.jpg" />
+  <em>CPU Cooler Installation</em></p>
+</li>
+<li>
+<p><img alt="Core Assembly" loading="lazy" src="../../../../../images/builds/jade/13_core_assembly.jpg" />
+  <em>Core Assembly</em></p>
+</li>
+<li>
+<p><img alt="Test Bench Ready" loading="lazy" src="../../../../../images/builds/jade/14_test_bench_ready.jpg" />
+  <em>Test Bench Ready</em></p>
+</li>
+<li>
+<p><img alt="From Boxes to BIOS" loading="lazy" src="../../../../../images/builds/jade/15_bios.jpg" />
+  <em>From Boxes to BIOS</em></p>
+</li>
+<li>
+<p><img alt="Ubuntu Live!" loading="lazy" src="../../../../../images/builds/jade/16_ubuntu_live.jpg" />
+  <em>Ubuntu Live!</em></p>
+</li>
+<li>
+<p><img alt="T-minus RGB" loading="lazy" src="../../../../../images/builds/jade/17_rgb.jpg" />
+  <em>T-minus RGB...</em></p>
+</li>
+</ul>
+</div>
+<h2 id="parts-list">Parts List</h2>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Component</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Case</strong></td>
+<td>Fractal Design Terra Jade (walnut front panel)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>CPU</strong></td>
+<td>AMD Ryzen 7 9700X (8-core/16-thread, 65W TDP)</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>CPU Cooler</strong></td>
+<td>Noctua NH-L12S (low-profile, 120mm fan)</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Motherboard</strong></td>
+<td>MSI MPG B850I Edge Ti WiFi (AM5 Mini-ITX)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>RAM</strong></td>
+<td>G.SKILL Trident Z5 Neo RGB 64GB (2×32GB) DDR5-6000 EXPO</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Storage</strong></td>
+<td>Samsung 990 PRO 2TB PCIe Gen4 M.2</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>PSU</strong></td>
+<td>Corsair SF750 (2024) 80+ Platinum SFX</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Case Fans</strong></td>
+<td>2× Noctua NF-A12x25 PWM (120mm)</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Top Fan Bracket</strong></td>
+<td>25mm thick Etsy bracket for second intake fan</td>
+</tr>
+</tbody>
+</table>
+<h2 id="build-progress-so-far">Build Progress So Far</h2>
+<p>I've received and unboxed the CPU, cooler, motherboard, RAM, PSU, and one case fan. Assembly started with an open-air test bench on cardboard to validate core components before final case installation.</p>
+<ul>
+<li>Installed Ryzen 7 9700X and RAM in slots A2/B2.</li>
+<li>Mounted NH-L12S with standard bars in diagonal orientation for VRM clearance.</li>
+<li>Switched the cooler fan to top position (intake blowing down) to ensure 44mm RAM clearance.</li>
+<li>Connected 24-pin ATX, 8-pin EPS, cooler fan to CPU_FAN header, and one case fan to SYS_FAN.</li>
+<li>First POST successful! <img alt="😎" class="twemoji" src="https://cdn.jsdelivr.net/gh/jdecked/twemoji@16.0.1/assets/svg/1f60e.svg" title=":sunglasses:" /></li>
+<li>Enabled AMD EXPO profile and High-Efficiency Mode in BIOS → Confirmed 6000 MT/s memory speed.</li>
+<li>Booted Ubuntu 24.04 LTS live USB.</li>
+<li>Ran <code>inxi</code>, <code>sensors</code>, and a 5-minute <code>stress-ng</code> (16 threads) test:</li>
+<li>Peak temperature: <strong>50.6°C</strong> (open air)</li>
+<li>No thermal throttling or stability issues</li>
+</ul>
+<p>The top fan bracket has arrived. Still awaiting the Terra case itself, the Samsung 990 PRO 2TB drive, and the second NF-A12x25 fan for final assembly and full Ubuntu installation.</p>
+<p>The core system is now fully validated: stable, remarkably cool, and running at rated specifications on an open-air test bench. I'm excited to move everything into the beautiful Fractal Terra Jade case soon. Final assembly, meticulous cable management, Suricata IDS/IPS configuration, and full noise/power benchmarks are next once the remaining parts arrive.</p>
+<p>Stay tuned for the completed build and real-world performance results!</p>
+<p><em>Joe Hawley</em><br />
+Fortune 500 Director | CISSP<br />
+M.S. Cybersecurity Graduate Student @ Georgia Institute of Technology</p>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+      
+    </article>
+  </div>
+
           
 <script>var target=document.getElementById(location.hash.slice(1));target&&target.name&&(target.checked=target.name.startsWith("__tabbed_"))</script>
         </div>
@@ -576,10 +828,10 @@ M.S. Cybersecurity Graduate Student<br />
     
       
       
-      <script id="__config" type="application/json">{"annotate": null, "base": ".", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "search"], "search": "assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
+      <script id="__config" type="application/json">{"annotate": null, "base": "../../../../..", "features": ["navigation.tabs", "navigation.sections", "navigation.expand", "navigation.indexes", "search"], "search": "../../../../../assets/javascripts/workers/search.2c215733.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="assets/javascripts/bundle.79ae519e.min.js"></script>
+      <script src="../../../../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
     
   </body>
