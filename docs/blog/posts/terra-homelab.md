@@ -76,6 +76,7 @@ This project documents the ongoing build of a small-form-factor (SFF) homelab se
 
 - ![T-minus RGB](../../images/builds/jade/17_rgb.jpg){ loading=lazy }
   _T-minus RGB..._
+
 </div>
 
 ## Parts List

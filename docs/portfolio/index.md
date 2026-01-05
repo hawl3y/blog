@@ -6,6 +6,11 @@ Projects and noteworthy achievements
 
 <div class="grid cards" markdown>
 
+- ![Building a Compact Homelab](../images/portfolio/homelab-test-bench.jpg)
+  **Building a Compact Homelab** · 2026  
+  Custom Fractal Terra build of a small-form-factor (SFF) homelab.  
+  [Learn more →](https://hawley.blog/blog/2026/01/03/building-a-compact-homelab/){ target="_new" rel="noopener" }
+
 - ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
   **AI Fluency Certification** · 2025  
   Completed M365 Copilot AI Fluency certification and capstone project.  
