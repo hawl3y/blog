@@ -8,7 +8,7 @@ Projects and noteworthy achievements
 
 - ![Building a Compact Homelab](../images/portfolio/homelab-test-bench.jpg)
   **Building a Compact Homelab** · 2026  
-  Custom Fractal Terra build of a small-form-factor (SFF) homelab.  
+  Custom Fractal Design Terra build of a small-form-factor (SFF) homelab.  
   [Learn more →](https://hawley.blog/blog/2026/01/03/building-a-compact-homelab/){ target="_new" rel="noopener" }
 
 - ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
@@ -41,5 +41,10 @@ Projects and noteworthy achievements
   **Earned CISSP** · 2024  
   Studied for ~7 months and passed the CISSP exam on my first attempt.  
   [Learn more →](https://www.credly.com/badges/55f12485-cccc-4b31-b8d1-c33d6402d4b9){ target="_new" rel="noopener" }
+
+- ![Building a Homelab for Blockchain](../images/portfolio/meshify-homelab.jpg)
+  **Building a Homelab for Blockchain** · 2021  
+  Custom Fractal Design Meshify C to delve deep into blockchain.  
+  [Learn more →](../blog/2021/11/19/building-a-meshify-c-homelab-for-blockchain/){ target="_new" rel="noopener" }
 
 </div>
