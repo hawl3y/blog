@@ -16,7 +16,7 @@ As a neurodivergent leader in cybersecurity, I bring focused intensity, empathy,
 
 My career spans over two decades in MedTech, evolving from programming and web development through technical analysis and business partnerships to directing enterprise security programs that enable growth without unnecessary risk.
 
-Raised in North Carolina and now living in New York, I mentor emerging professionals, advocate for neurodiversity in tech, and enjoy time with my wife and our miniature dachshund, Daisy.
+Raised in North Carolina and now living in New York, I mentor emerging professionals, advocate for neurodiversity in tech, and enjoy time with my artist wife (singer-songwriter), our miniature dachshund Daisy, and staying connected with my son, an electrician back in NC.
 
 Connect on [LinkedIn](https://www.linkedin.com/in/joechawley/){ target="_new" rel="noopener" } 
 · [X](https://x.com/Hawley){ target="_new" rel="noopener" } 

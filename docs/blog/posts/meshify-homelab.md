@@ -6,8 +6,6 @@ description: A retrospective on my 2021 homelab build in the Fractal Design Mesh
 tags: [homelab, cardano, blockchain, nft, staking, hardware, cybersecurity, linux]
 ---
 
-## Introduction
-
 ![Hero Image: Completed Meshify C homelab running](../../images/builds/meshify/2021-meshify-running.jpg){ .float-right width=225 }
 
 In late 2021, I assembled this homelab in the Fractal Design Meshify C to dive deep into blockchain technology and NFTs. What started as curiosity quickly became hands-on mastery: launching my own Cardano stake pool, producing real blocks to secure the network, and minting my own NFTs on-chain using this architecture.
@@ -69,27 +67,27 @@ The deepest reward was tangible understanding of decentralized systems.
 
 <div class="grid cards" markdown>
 
--   ![](../../images/builds/meshify/2021-meshify-exterior-clean.jpg)  
+-   ![](../../images/builds/meshify/2021-meshify-exterior-clean.jpg)
     __Finished Exterior__  
     Clean black Meshify C front panel.
 
--   ![](../../images/builds/meshify/2021-meshify-internal-supermicro.jpg)  
+-   ![](../../images/builds/meshify/2021-meshify-internal-supermicro.jpg)
     __Internal View 1__  
     Supermicro board, Noctua cooler.
 
--   ![](../../images/builds/meshify/2021-meshify-internal-cables.jpg)  
+-   ![](../../images/builds/meshify/2021-meshify-internal-cables.jpg)
     __Internal View 2__  
     PSU, primary SSD, tidy cabling.
 
--   ![](../../images/builds/meshify/2021-meshify-unboxing-parts.jpg)  
+-   ![](../../images/builds/meshify/2021-meshify-unboxing-parts.jpg)
     __Unboxing & Parts__  
     Boxes ready for assembly.
 
--   ![](../../images/builds/meshify/cardano-monitoring-dashboard.jpg)  
+-   ![](../../images/builds/meshify/cardano-monitoring-dashboard.jpg)
     __System Monitoring__  
     Grafana health and performance gauges.
 
--   ![](../../images/builds/meshify/gliveview-core-and-relay-sidebyside.jpg)  
+-   ![](../../images/builds/meshify/gliveview-core-and-relay-sidebyside.jpg)
     __Live Nodes__  
     Block and relay nodes in gLiveView.
 

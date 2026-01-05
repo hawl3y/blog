@@ -6,7 +6,7 @@ description: Documenting the build of a quiet, efficient small-form-factor homel
 tags: [homelab, pc-build, sffpc, amd-ryzen, fractal-design, hardware]
 ---
 
-# Building a Compact Homelab: Fractal Terra with Ryzen 7
+# Building a Compact Fractal Terra Homelab with Ryzen 7
 
 ![How I meditate - Bliss](../../images/builds/jade/bliss.jpg){ alt="Building a Compact Homelab" .float-right width=225 }
 
