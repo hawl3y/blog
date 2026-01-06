@@ -14,9 +14,9 @@ In late 2021, I assembled this homelab in the Fractal Design Meshify C to dive d
 
 This project was a perfect mix of hardware tinkering, secure Linux setup, and distributed systems, which is exactly the kind of hands-on challenge I love.
 
-The homelab began as the full testbed and later became a redundant relay in production.
-
 <!-- more -->
+
+The homelab began as the full testbed and later became a redundant relay in production.
 
 ## Hardware Specs
 

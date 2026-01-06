@@ -24,58 +24,76 @@ This project documents the ongoing build of a small-form-factor (SFF) homelab se
 <div class="grid cards" markdown>
 
 - ![Box of Parts](../../images/builds/jade/00_boxed.jpg){ loading=lazy }
-  _Box of parts_
+  __Box of Parts__  
+  All parts arrived safely.
 
 - ![Unboxed Boxes - Core Components](../../images/builds/jade/01_unboxed_boxes.jpg){ loading=lazy }
-  _Unboxed boxes - Core components_
+  __Unboxed Boxes__  
+  Core components revealed.
 
 - ![Boxes Unboxed - The Fun Begins](../../images/builds/jade/02_boxes_unboxed.jpg){ loading=lazy }
-  _Boxes unboxed - The fun begins_
+  __Boxes Unboxed__  
+  Everything laid out.
 
 - ![Corsair SF750](../../images/builds/jade/03_unboxed_psu.jpg){ loading=lazy }
-  _Corsair SF750_
+  __Corsair SF750__  
+  Corsair SF750 Platinum SFX.
 
 - ![Noctua NH-L12S](../../images/builds/jade/04_unboxed_cpu_cooler.jpg){ loading=lazy }
-  _Noctua NH-L12S_
+  __Noctua NH-L12S__  
+  Low-profile Noctua cooler.
 
 - ![Noctua NF-A12x25](../../images/builds/jade/05_unboxed_case_fan.jpg){ loading=lazy }
-  _Noctua NF-A12x25_
+  __Noctua NF-A12x25__  
+  Premium 120mm case fan.
 
 - ![G.SKILL Trident Z5 Neo RGB](../../images/builds/jade/06_unboxed_ram.jpg){ loading=lazy }
-  _G.SKILL Trident Z5 Neo RGB_
+  __G.SKILL Trident Z5 Neo RGB__  
+  64GB DDR5-6000 kit.
 
 - ![AMD Ryzen 7 9700X](../../images/builds/jade/07_unboxed_cpu.jpg){ loading=lazy }
-  _AMD Ryzen 7 9700X_
+  __AMD Ryzen 7 9700X__  
+  Zen 5 8-core CPU.
 
 - ![MSI MPG B850I Edge](../../images/builds/jade/08_unboxed_mobo.jpg){ loading=lazy }
-  _MSI MPG B850I Edge_
+  __MSI MPG B850I Edge__  
+  Compact AM5 Mini-ITX board.
 
 - ![CPU Installation](../../images/builds/jade/09_install_cpu.jpg){ loading=lazy }
-  _CPU Installation_
+  __CPU Installation__  
+  Ryzen 7 9700X seated perfectly.
 
 - ![RAM Installation](../../images/builds/jade/10_install_ram.jpg){ loading=lazy }
-  _RAM Installation_
+  __RAM Installation__  
+  64GB DDR5 clicked into place.
 
 - ![Cooler Brackets Installation](../../images/builds/jade/11_install_cpu_cooler_brackets.jpg){ loading=lazy }
-  _Cooler Brackets Installation_
+  __Cooler Brackets Installation__  
+  AM5 brackets secured tightly.
 
 - ![CPU Cooler Installation](../../images/builds/jade/12_install_cpu_cooler.jpg){ loading=lazy }
-  _CPU Cooler Installation_
+  __CPU Cooler Installation__  
+  Noctua NH-L12S fully mounted.
 
 - ![Core Assembly](../../images/builds/jade/13_core_assembly.jpg){ loading=lazy }
-  _Core Assembly_
+  __Core Assembly__  
+  CPU, RAM, and cooler united.
 
 - ![Test Bench Ready](../../images/builds/jade/14_test_bench_ready.jpg){ loading=lazy }
-  _Test Bench Ready_
+  __Test Bench Ready__  
+  Ready for first power-on.
 
 - ![From Boxes to BIOS](../../images/builds/jade/15_bios.jpg){ loading=lazy }
-  _From Boxes to BIOS_
+  __From Boxes to BIOS__  
+  First POST and BIOS entry.
 
 - ![Ubuntu Live!](../../images/builds/jade/16_ubuntu_live.jpg){ loading=lazy }
-  _Ubuntu Live!_
+  __Ubuntu Live!__  
+  Ubuntu Live USB booted successfully.
 
 - ![T-minus RGB](../../images/builds/jade/17_rgb.jpg){ loading=lazy }
-  _T-minus RGB..._
+  __T-minus RGB...__  
+  RGB lit and desktop loaded.
 
 </div>
 
