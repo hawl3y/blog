@@ -6,9 +6,9 @@ Projects and noteworthy achievements
 
 <div class="grid cards" markdown>
 
-- ![Building a Compact Homelab](../images/portfolio/homelab-test-bench.jpg)
-  **Building a Compact Homelab** · 2026  
-  Built custom Fractal Design Terra small-form-factor (SFF) homelab.  
+- ![Homelab for Graduate Research](../images/portfolio/homelab-test-bench.jpg)
+  **Homelab for Graduate Research** · 2026  
+  Built compact Fractal Terra homelab for cybersecurity graduate research.  
   [Learn more →](../articles/building-a-compact-homelab/){ target="_new" rel="noopener" }
 
 - ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
@@ -24,7 +24,7 @@ Projects and noteworthy achievements
 - ![Trusty Potato - Cyber Awareness App](../images/portfolio/trusty.png)
   **Building Trusty Potato App** · 2025  
   Python/JS cybersecurity awareness quiz and phishing simulator.  
-  [Learn more →](https://trustypotato.com){ target="_new" rel="noopener" }
+  [Learn more →](../articles/building-trusty-potato/){ target="_new" rel="noopener" }
 
 - ![Editorial - Think Digital Partners](../images/portfolio/neurodiversity.jpg)
   **Embracing Autism Editorial** · 2025  
@@ -44,7 +44,7 @@ Projects and noteworthy achievements
 
 - ![Homelab for Blockchain](../images/portfolio/meshify-homelab.jpg)
   **Homelab for Blockchain** · 2021  
-  Built custom Fractal Design Meshify C for blockchain research.  
+  Built custom Fractal Meshify C homelab for blockchain research.  
   [Learn more →](../articles/building-a-meshify-c-homelab-for-blockchain/){ target="_new" rel="noopener" }
 
 </div>

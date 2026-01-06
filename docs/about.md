@@ -2,7 +2,7 @@
 title: About
 ---
 
-![Joe Hawley professional headshot](images/avatar.jpg){ align=left loading=lazy }
+![Joe Hawley professional headshot](images/avatar.jpg){ align=left loading=lazy .off-glb }
 
 # Joe Hawley
 

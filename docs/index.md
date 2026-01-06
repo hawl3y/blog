@@ -10,7 +10,7 @@ M.S. Cybersecurity Graduate Student
 @ Georgia Institute of Technology
 </div>
 
-![Joe and Daisy](images/daddy-daisy.jpg){ align=right alt="Joe Hawley with his miniature dachshund Daisy" .float-right width=320 }
+![Joe and Daisy](images/daddy-daisy.jpg){ align=right alt="Hawley with his miniature dachshund, Daisy." .float-right width=320 }
 
 Bridging cybersecurity and business value to guide risk-informed decisions that protect what matters while enabling innovation and growth.
 

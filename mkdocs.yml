@@ -64,6 +64,16 @@ plugins:
       blog_dir: articles
       post_url_format: "{slug}"
   - search
+  - glightbox:
+      touchNavigation: true
+      loop: true
+      effect: zoom
+      width: 100%
+      height: auto
+      zoomable: true
+      draggable: true
+      auto_caption: true
+      caption_position: bottom
 
 extra:
   generator: false
