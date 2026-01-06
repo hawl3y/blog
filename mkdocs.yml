@@ -46,7 +46,7 @@ theme:
 nav:
   - Home: index.md
   - Portfolio: portfolio/index.md
-  - Blog: blog/index.md
+  - Articles: articles/index.md
   - About: about.md
 
 extra_css:
@@ -60,7 +60,9 @@ markdown_extensions:
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
-  - blog
+  - blog:
+      blog_dir: articles
+      post_url_format: "{slug}"
   - search
 
 extra:

@@ -1,4 +1,4 @@
-# Blog { .text-center }
+# Articles { .text-center }
 
 <div class="sub-heading" markdown>
 Bridging Cybersecurity and Business Value: 
