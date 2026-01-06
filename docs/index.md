@@ -12,8 +12,8 @@ M.S. Cybersecurity Graduate Student
 
 ![Joe and Daisy](images/daddy-daisy.jpg){ align=right alt="Joe Hawley with his miniature dachshund Daisy" .float-right width=320 }
 
-I bridge cybersecurity and business value to guide risk-informed decisions that protect what matters while enabling innovation and growth.
+Bridging cybersecurity and business value to guide risk-informed decisions that protect what matters while enabling innovation and growth.
 
-Neurodivergent, self-taught coder with 20+ years in MedTech, turned enterprise leader. Raised on a North Carolina farm, now calling New York home. Former DJ, passionate about Japanese culture (bucket list: summit Mt. Fuji), sci-fi fan, and proud dog dad to my miniature dachshund, Daisy.
+Neurodivergent, self-taught coder with 20+ years in MedTech, turned enterprise leader. Raised on a North Carolina farm, now calling New York home. Former DJ, passionate about Japanese culture (bucket list: summit Mt. Fuji), sci-fi fan, and proud dog dad to miniature dachshund Daisy.
 
-Welcome to my blog, thoughts on cybersecurity leadership, and occasional experiments.
+Thoughts on cybersecurity leadership and occasional experiments.
