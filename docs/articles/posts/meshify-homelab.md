@@ -1,10 +1,12 @@
 ---
-title: Building a Meshify C Homelab for Blockchain
+title: Building a Homelab for Blockchain
 date: 2021-11-19
 author: Joe Hawley
 description: A retrospective on my 2021 homelab build in the Fractal Design Meshify C. The origin of my Cardano stake pool, where I learned blockchain fundamentals, produced blocks to secure the network, and minted NFTs.
 tags: [homelab, cardano, blockchain, nft, staking, hardware, cybersecurity, linux]
 ---
+
+# Building a Fractal Meshify C Homelab for Blockchain
 
 ![Hero Image: Completed Meshify C homelab running](../../images/builds/meshify/2021-meshify-running.jpg){ .float-right width=225 }
 
