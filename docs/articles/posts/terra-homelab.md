@@ -1,12 +1,12 @@
 ---
-title: Building a Compact Homelab
+title: Building a Cybersecurity Homelab
 date: 2026-01-03
 author: Joe Hawley
 description: Documenting the build of a quiet, efficient small-form-factor homelab server using the Fractal Design Terra Jade case and AMD Ryzen 7 9700X for virtualization, containers, development, and network security tasks.
 tags: [homelab, pc-build, sffpc, amd-ryzen, fractal-design, hardware]
 ---
 
-# Building a Compact Fractal Terra Homelab with Ryzen 7
+# Building a Homelab for Cybersecurity Graduate Research
 
 ![How I meditate - Bliss](../../images/builds/jade/bliss.jpg){ alt="Building a Compact Homelab" .float-right width=225 }
 

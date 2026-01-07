@@ -9,7 +9,7 @@ Projects and noteworthy achievements
 - ![Homelab for Graduate Research](../images/portfolio/homelab-test-bench.jpg)
   **Homelab for Graduate Research** · 2026  
   Built compact Fractal Terra homelab for cybersecurity graduate research.  
-  [Learn more →](../articles/building-a-compact-homelab/){ target="_new" rel="noopener" }
+  [Learn more →](../articles/building-a-cybersecurity-homelab/){ target="_new" rel="noopener" }
 
 - ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
   **AI Fluency Certification** · 2025  
@@ -44,7 +44,7 @@ Projects and noteworthy achievements
 
 - ![Homelab for Blockchain](../images/portfolio/meshify-homelab.jpg)
   **Homelab for Blockchain** · 2021  
-  Built custom Fractal Meshify C homelab for blockchain research.  
-  [Learn more →](../articles/building-a-meshify-c-homelab-for-blockchain/){ target="_new" rel="noopener" }
+  Built custom Fractal Meshify C homelab for blockchain development.  
+  [Learn more →](../articles/building-a-homelab-for-blockchain/){ target="_new" rel="noopener" }
 
 </div>

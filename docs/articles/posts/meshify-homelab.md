@@ -6,7 +6,7 @@ description: A retrospective on my 2021 homelab build in the Fractal Design Mesh
 tags: [homelab, cardano, blockchain, nft, staking, hardware, cybersecurity, linux]
 ---
 
-# Building a Fractal Meshify C Homelab for Blockchain
+# Building a Homelab for Blockchain Development
 
 ![Hero Image: Completed Meshify C homelab running](../../images/builds/meshify/2021-meshify-running.jpg){ .float-right width=225 }
 
