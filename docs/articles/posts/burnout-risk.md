@@ -121,3 +121,7 @@ We plan extensively for how we will respond to incidents.
 We should spend just as much time thinking about how we sustain the people responsible for responding to them.
 
 Still working on that.
+
+*Joe Hawley*  
+Cybersecurity Director  
+M.S. Cybersecurity Graduate Student, Georgia Institute of Technology
