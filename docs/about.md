@@ -10,13 +10,15 @@ title: About
 **Cybersecurity Director**
 </div>
 
-_Pursuing a Master of Science in Cybersecurity at Georgia Institute of Technology._
+_I help leaders make clear, risk-informed cybersecurity decisions._
 
-As a neurodivergent leader in cybersecurity, I bring focused intensity, empathy, and precision to bridging security with business needs. I partner with executives to guide risk-informed decisions that protect what matters most while making the secure path the easiest one.
+As a security partner, I translate cyber risk into practical actions across teams and functions. The goal is not perfect security. It is steady, well-informed decisions that protect trust while keeping the business moving.
 
-With over two decades in MedTech, I've evolved from programming and web development to technical analysis and strategic partnerships. Today, I direct enterprise security programs that enable growth without unnecessary risk.
+My background spans over two decades in MedTech, starting in software and web development and evolving into technical analysis and business-facing roles. That experience shapes how I approach this work today. Security is not just controls and tooling. It is context, communication, and disciplined tradeoffs.
 
-Raised in North Carolina and now based in New York, I mentor emerging professionals and advocate for neurodiversity in tech. Outside of work, I cherish time with my wonderful wife, a talented singer-songwriter, our miniature dachshund Daisy, and my son, an electrician back in NC.
+Today, I focus on enterprise security programs that strengthen resilience across technology, process, and people.
+
+I’m based in New York and currently pursuing a Master of Science in Cybersecurity at Georgia Institute of Technology.
 
 Connect on [LinkedIn](https://www.linkedin.com/in/joechawley/){ target="_new" rel="noopener" } 
 · [X](https://x.com/Hawley){ target="_new" rel="noopener" } 

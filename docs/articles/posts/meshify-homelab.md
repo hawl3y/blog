@@ -102,5 +102,5 @@ This project delivered blockchain knowledge from the ground up—producing block
 If you're curious about staking, NFTs, or homelab builds, start small—the hands-on learning is unmatched.
 
 *Joe Hawley*  
-Fortune 500 Director | CISSP  
-M.S. Cybersecurity Graduate Student @ Georgia Institute of Technology
+Cybersecurity Director  
+M.S. Cybersecurity Graduate Student, Georgia Institute of Technology

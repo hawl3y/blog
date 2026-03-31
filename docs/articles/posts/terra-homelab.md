@@ -133,5 +133,5 @@ The core system is now fully validated: stable, remarkably cool, and running at 
 Stay tuned for the completed build and real-world performance results!
 
 *Joe Hawley*  
-Fortune 500 Director | CISSP  
-M.S. Cybersecurity Graduate Student @ Georgia Institute of Technology
+Cybersecurity Director  
+M.S. Cybersecurity Graduate Student, Georgia Institute of Technology

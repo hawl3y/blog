@@ -1,8 +1,7 @@
 # Articles { .text-center }
 
 <div class="sub-heading" markdown>
-Bridging Cybersecurity and Business Value: 
-Neurodiversity in Tech and Personal Reflections
+Thoughts on cybersecurity, tradeoffs, and working with the business
 </div>
 
 --- 

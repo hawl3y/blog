@@ -1,7 +1,7 @@
 # Portfolio { .center-desktop }
 
 <div class="sub-heading" markdown>
-Projects and noteworthy achievements
+Selected work and contributions over time
 </div>
 
 <div class="grid cards" markdown>

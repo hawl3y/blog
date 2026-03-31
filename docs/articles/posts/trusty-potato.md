@@ -94,5 +94,5 @@ If you're interested in cybersecurity awareness with a playful twist, give it a 
 Feedback always welcome!
 
 *Joe Hawley*  
-Fortune 500 Director | CISSP  
-M.S. Cybersecurity Graduate Student @ Georgia Institute of Technology
+Cybersecurity Director  
+M.S. Cybersecurity Graduate Student, Georgia Institute of Technology

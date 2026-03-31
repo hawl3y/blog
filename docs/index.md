@@ -2,17 +2,18 @@
 title:
 ---
 
-# Cybersecurity Leader { .text-center }
+# Cybersecurity Director { .text-center }
 
 <div class="sub-heading" markdown>
-M.S. Cybersecurity Graduate Student  
-@ Georgia Institute of Technology
+Building Enterprise Resillience
 </div>
 
 ![Joe and Daisy](images/daddy-daisy.jpg){ align=right alt="Hawley with his miniature dachshund, Daisy." .float-right width=280 }
 
-Bridging cybersecurity and business value to guide risk-informed decisions that protect what matters while enabling innovation and growth.
+I help organizations make clear, risk-informed security decisions.
 
-Neurodivergent, self-taught coder with 20+ years in MedTech, turned enterprise leader. Raised on a North Carolina farm, now calling New York home. Former DJ, passionate about Japanese culture (bucket list: summit Mt. Fuji), sci-fi fan, and proud dog dad to miniature dachshund Daisy.
+Director-level security partner with 20+ years in MedTech, working at the intersection of technology, regulation, and real-world impact. Started in software and web development, now focused on enterprise security strategy and close partnership with the business.
 
-Thoughts on cybersecurity leadership and occasional experiments.
+Based in New York. Focused on building security programs that work in practice, not just on paper.
+
+M.S. Cybersecurity Graduate Student, Georgia Institute of Technology
