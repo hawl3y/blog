@@ -7,7 +7,7 @@ title: About
 # Joe Hawley
 
 <div class="sub-heading-abt" markdown>
-**Fortune 500 Director | CISSP**
+**Cybersecurity Director**
 </div>
 
 _Pursuing a Master of Science in Cybersecurity at Georgia Institute of Technology._
