@@ -5,7 +5,6 @@ title:
 # Cybersecurity Leader { .text-center }
 
 <div class="sub-heading" markdown>
-Cybersecurity Director  
 M.S. Cybersecurity Graduate Student  
 @ Georgia Institute of Technology
 </div>
