@@ -1,7 +1,7 @@
 # Articles { .text-center }
 
 <div class="sub-heading" markdown>
-Thoughts on cybersecurity, tradeoffs, and working with the business
+Thoughts on cybersecurity in practice
 </div>
 
 --- 
