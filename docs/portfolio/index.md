@@ -6,15 +6,15 @@ Selected work and contributions over time
 
 <div class="grid cards" markdown>
 
+- ![Cyber Signal](../images/portfolio/cyber-signal.jpg)
+  **Building Cyber Signal App** · 2026  
+  Cyber Signal provides a clean, structured view of meaningful cyber events.  
+  [Learn more →](../articles/building-cyber-signal){ target="_new" rel="noopener" }
+
 - ![Homelab for Graduate Research](../images/portfolio/homelab-test-bench.jpg)
   **Homelab for Graduate Research** · 2026  
   Built compact Fractal Terra homelab for cybersecurity graduate research.  
   [Learn more →](../articles/building-a-cybersecurity-homelab/){ target="_new" rel="noopener" }
-
-- ![AI Fluency Certification](../images/portfolio/ai-fluency.jpg)
-  **AI Fluency Certification** · 2025  
-  Completed M365 Copilot AI Fluency certification and capstone project.  
-  [Learn more →](https://www.linkedin.com/posts/joechawley_aifluency-aiinaction-cybersecurity-activity-7412170711093645312-mrTE){ target="_new" rel="noopener" }
 
 - ![Georgia Tech Acceptance Letter](../images/portfolio/gatech.jpg)
   **Accepted to Georgia Tech** · 2025  

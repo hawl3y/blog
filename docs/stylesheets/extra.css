@@ -50,8 +50,17 @@
 }
 
 /* ====================================
-   Rounded photo - float right
+   Rounded photos
    ==================================== */
+.md-typeset img.app-shot {
+  border-radius: 20px;
+  box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 1rem 0 1.5rem;
+}
+
 .md-typeset img.float-right {
   border-radius: 20px;
   box-shadow: 0 12px 40px rgba(0, 0, 0, 0.18);

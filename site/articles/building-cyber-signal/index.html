@@ -3,17 +3,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A reflection on my first real-world cyber event as a security leader, the limits of sustained intensity, and why personal sustainability is a critical but often overlooked part of cyber resilience.">
+        <meta name="description" content="A look at building Cyber Signal, a high-signal cyber event brief that turns fragmented reporting into a clean, structured view of meaningful cybersecurity activity.">
       
       
         <meta name="author" content="Joe Hawley">
       
       
       
-        <link rel="prev" href="../building-a-cybersecurity-homelab/">
+        <link rel="prev" href="../burnout-is-part-of-the-risk-model/">
       
-      
-        <link rel="next" href="../building-cyber-signal/">
       
       
         
@@ -24,7 +22,7 @@
     
     
       
-        <title>Burnout Is Part of the Risk Model - Hawley</title>
+        <title>Building Cyber Signal - Hawley</title>
       
     
     
@@ -87,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#burnout-is-part-of-the-risk-model" class="md-skip">
+        <a href="#building-a-high-signal-cyber-event-brief" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Burnout Is Part of the Risk Model
+              Building Cyber Signal
             
           </span>
         </div>
@@ -476,10 +474,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#when-preparation-meets-reality" class="md-nav__link">
+  <a href="#cyber-signal-in-practice" class="md-nav__link">
     <span class="md-ellipsis">
       
-        When Preparation Meets Reality
+        Cyber Signal in Practice
       
     </span>
   </a>
@@ -487,10 +485,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-moment-it-became-clear" class="md-nav__link">
+  <a href="#what-cyber-signal-is-and-isnt" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The Moment It Became Clear
+        What Cyber Signal Is (and Isn’t)
       
     </span>
   </a>
@@ -498,10 +496,38 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-the-experience-reinforced" class="md-nav__link">
+  <a href="#how-it-works" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What the Experience Reinforced
+        How It Works
+      
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="How It Works">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#pipeline" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Pipeline
+      
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tech-stack" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tech Stack
       
     </span>
   </a>
@@ -509,10 +535,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#the-gap-in-how-we-plan" class="md-nav__link">
+  <a href="#automation" class="md-nav__link">
     <span class="md-ellipsis">
       
-        The Gap in How We Plan
+        Automation
       
     </span>
   </a>
@@ -520,10 +546,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#a-more-complete-view-of-resilience" class="md-nav__link">
+  <a href="#working-with-real-world-data" class="md-nav__link">
     <span class="md-ellipsis">
       
-        A More Complete View of Resilience
+        Working with Real-World Data
       
     </span>
   </a>
@@ -531,10 +557,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#personal-reflection" class="md-nav__link">
+  <a href="#design-philosophy" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Personal Reflection
+        Design Philosophy
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#current-state" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Current State
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-comes-next" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Comes Next
       
     </span>
   </a>
@@ -589,7 +637,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"></path></svg>
-                        <time datetime="2026-03-31 00:00:00+00:00" class="md-ellipsis">March 31, 2026</time>
+                        <time datetime="2026-04-30 00:00:00+00:00" class="md-ellipsis">April 30, 2026</time>
                       </div>
                     </li>
                     
@@ -601,7 +649,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"></path></svg>
                           <span class="md-ellipsis">
                             
-                              3 min read
+                              4 min read
                             
                           </span>
                         </div>
@@ -625,70 +673,225 @@
 
 
 
-<h1 id="burnout-is-part-of-the-risk-model">Burnout Is Part of the Risk Model</h1>
-<p>Earlier this month, I experienced my first real-world cyber event as a security leader.</p>
-<p>After more than two decades in technology and about eight months in cybersecurity leadership, I had spent a lot of time preparing for that moment. Studying, certifications, conferences, and graduate work. All of it aimed at being ready when it mattered.</p>
-<p>And when it did, I was ready for the work.</p>
-<p>What I was not fully prepared for was the cost of sustaining it.</p>
+<h1 id="building-a-high-signal-cyber-event-brief">Building a High-Signal Cyber Event Brief</h1>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../images/apps/signal/high-signal.jpg" data-title="High-Signal Events" data-desc-position="bottom"><img alt="High-Signal Events" class="app-shot" src="../../images/apps/signal/high-signal.jpg"></a></p>
+<p>Cyber Signal started from a simple frustration.</p>
+<p>There is no shortage of cybersecurity information. News feeds, advisories, research blogs, vendor reports. But most of it is fragmented, repetitive, and difficult to interpret when you just want to understand:</p>
+<ul>
+<li>What actually happened  </li>
+<li>Who was affected  </li>
+<li>What type of attack it was  </li>
+<li>Whether it matters  </li>
+</ul>
+<p>The goal with Cyber Signal was not to build another dashboard or intelligence platform. It was to build something much simpler:</p>
+<blockquote>
+<p>A clean, structured view of meaningful cyber events.</p>
+</blockquote>
 <!-- more -->
 
-<h2 id="when-preparation-meets-reality">When Preparation Meets Reality</h2>
-<p>For over two weeks, I was deeply involved in response and recovery efforts. Long days, constant context switching, and a steady stream of decisions that carried real consequences.</p>
-<p>It was intense, but also meaningful.</p>
-<p>You could see the impact. You could feel the alignment across teams. You could watch progress take shape in real time as systems came back online and stability returned.</p>
-<p>There is a certain clarity that comes with that kind of work.</p>
-<p>But there is also a limit.</p>
-<h2 id="the-moment-it-became-clear">The Moment It Became Clear</h2>
-<p>After 14 and a half days focused almost entirely on one problem space, I was handed a new task in a different area that also needed attention.</p>
-<p>The task itself was not the issue.</p>
-<p>It was the shift.</p>
-<p>Moving from deep focus into something that required a different perspective and fresh decision-making pushed me past my limit.</p>
-<p>It was urgent. It mattered. And I took it on.</p>
-<p>Looking back, that was the moment things changed.</p>
-<p>I could have said no.<br>
-I could have asked for time to reset.<br>
-I could have transitioned more deliberately.</p>
-<p>I did not.</p>
-<p>And while the work got done, there is a cost to pushing past your limit that does not immediately show up in the outcome.</p>
-<h2 id="what-the-experience-reinforced">What the Experience Reinforced</h2>
-<p>One thing that stood out was how individuals carried themselves through it.</p>
-<p>Some people have a remarkable ability to stay calm, focused, and deliberate under sustained pressure. They create stability for others and help move things forward without adding noise.</p>
-<p>That kind of steadiness is not just technical.</p>
-<p>It is personal.</p>
-<p>A few takeaways that stayed with me:</p>
+<h2 id="cyber-signal-in-practice">Cyber Signal in Practice</h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../images/apps/signal/feed-overview.jpg" data-title="Cyber Signal event feed" data-desc-position="bottom"><img alt="Cyber Signal event feed" class="app-shot" loading="lazy" src="../../images/apps/signal/feed-overview.jpg"></a>
+<em>Filtered view showing incidents and activity in a single high-signal feed.</em></p>
+<h2 id="what-cyber-signal-is-and-isnt">What Cyber Signal Is (and Isn’t)</h2>
+<p>Cyber Signal is intentionally narrow in scope.</p>
+<p>It is:</p>
 <ul>
-<li>Preparation is not just technical. It is personal  </li>
-<li>Endurance is not the same as effectiveness  </li>
-<li>Sustained intensity without boundaries has a cost  </li>
-<li>The best teams create space for recovery, not just resolution  </li>
+<li>A <strong>single-page event brief</strong></li>
+<li>Focused on <strong>recent, meaningful cyber activity</strong></li>
+<li>Designed to be read in <strong>under a minute</strong></li>
 </ul>
-<h2 id="the-gap-in-how-we-plan">The Gap in How We Plan</h2>
-<p>In cybersecurity, we spend a lot of time preparing for external events.</p>
-<p>We model threats. We design response plans. We test recovery paths.</p>
-<p>But we spend far less time planning for the internal limits of the people expected to execute those plans.</p>
-<p>Fatigue, decision quality, and sustainability are rarely treated as part of the operating model.</p>
-<p>That gap matters.</p>
-<h2 id="a-more-complete-view-of-resilience">A More Complete View of Resilience</h2>
-<p>I am proud of how we responded. The coordination, the focus, and the outcome reinforced what strong preparation and teamwork can accomplish.</p>
-<p>But the more important lesson for me was not about systems.</p>
-<p>It was about sustainability.</p>
-<p>There is a certain pull in this kind of work.</p>
-<p>The urgency. The sense of purpose. The feeling of being needed when things are not going well.</p>
-<p>Delivering under pressure can feel rewarding. Sometimes more than it should.</p>
-<p>But if left unchecked, that pattern can push us further than we need to go.</p>
-<p>And over time, it takes more than it gives back.</p>
-<p>Resilience is not just about getting systems back online.<br>
-It is about making sure the people responsible for that work can sustain it.</p>
-<h2 id="personal-reflection">Personal Reflection</h2>
-<p>This experience made something clear to me.</p>
-<p>No one is exempt from burnout if we let it take control.</p>
-<p>Experience does not prevent it. Preparation does not prevent it. Even self-awareness is not always enough in the moment.</p>
-<p>What matters is recognizing limits and acting on them before they are exceeded.</p>
-<p>That is something I am still learning to manage better.</p>
+<p>It is not:</p>
+<ul>
+<li>A SIEM  </li>
+<li>A threat intelligence platform  </li>
+<li>A vulnerability database  </li>
+<li>A full analytics tool  </li>
+</ul>
+<p>The core idea is simple:</p>
+<blockquote>
+<p>The primary unit of value is the event, not the article.</p>
+</blockquote>
+<h2 id="how-it-works">How It Works</h2>
+<p>At a high level, Cyber Signal takes messy, real-world reporting and turns it into structured events.</p>
+<h3 id="pipeline">Pipeline</h3>
+<ol>
+<li><strong>Ingest</strong></li>
+<li>RSS feeds from curated sources (Krebs, BleepingComputer, The Record)</li>
+<li>CISA KEV JSON feed</li>
+<li>
+<p>CISA advisory RSS feed (with strict filtering)</p>
+</li>
+<li>
+<p><strong>Process</strong></p>
+</li>
+<li>Remove irrelevant or low-signal content  </li>
+<li>
+<p>Filter out legal follow-ups, marketing, and general guidance  </p>
+</li>
+<li>
+<p><strong>Extract</strong></p>
+</li>
+<li>Identify victim (only when clearly stated)</li>
+<li>Infer attack type (ransomware, breach, exploitation, etc.)</li>
+<li>Assign industry only when supported by evidence  </li>
+<li>
+<p>Normalize summaries into short, readable statements  </p>
+</li>
+<li>
+<p><strong>Cluster</strong></p>
+</li>
+<li>Group related articles into a single event  </li>
+<li>
+<p>Prevent duplication across repeated reporting  </p>
+</li>
+<li>
+<p><strong>Serve</strong></p>
+</li>
+<li>Deliver a clean, structured event feed via API  </li>
+<li>Render a simple, scannable UI  </li>
+</ol>
+<p>Everything is deterministic. No scoring engines, no heavy AI layers, no opaque logic.</p>
+<h2 id="tech-stack">Tech Stack</h2>
+<p>Cyber Signal is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.</p>
+<table>
+<thead>
+<tr>
+<th>#</th>
+<th>Component</th>
+<th>Details</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>1</td>
+<td><strong>Backend</strong></td>
+<td>Python + Flask (modular services and blueprints)</td>
+</tr>
+<tr>
+<td>2</td>
+<td><strong>Database</strong></td>
+<td>SQLite (local) with SQLAlchemy ORM</td>
+</tr>
+<tr>
+<td>3</td>
+<td><strong>Frontend</strong></td>
+<td>Vanilla JavaScript + minimal HTML/CSS</td>
+</tr>
+<tr>
+<td>4</td>
+<td><strong>Ingestion</strong></td>
+<td>RSS feeds (news + CISA advisories) + JSON (CISA KEV)</td>
+</tr>
+<tr>
+<td>5</td>
+<td><strong>Processing</strong></td>
+<td>Rule-based filtering for relevance and signal quality</td>
+</tr>
+<tr>
+<td>6</td>
+<td><strong>Extraction</strong></td>
+<td>Deterministic parsing for victim, attack type, industry, and summary</td>
+</tr>
+<tr>
+<td>7</td>
+<td><strong>Clustering</strong></td>
+<td>Lightweight matching to group related articles into events</td>
+</tr>
+<tr>
+<td>8</td>
+<td><strong>Scheduler</strong></td>
+<td>APScheduler for automated pipeline execution</td>
+</tr>
+<tr>
+<td>9</td>
+<td><strong>Runtime</strong></td>
+<td>Gunicorn (local/LAN testing)</td>
+</tr>
+</tbody>
+</table>
+<h2 id="automation">Automation</h2>
+<p>The system runs on a simple scheduled loop:</p>
+<ul>
+<li>Ingest new data  </li>
+<li>Process and extract signals  </li>
+<li>Cluster into events  </li>
+<li>Update the feed  </li>
+</ul>
+<p>A lightweight scheduler runs the full pipeline at a fixed interval and tracks:</p>
+<ul>
+<li>last run time  </li>
+<li>success/failure  </li>
+<li>pipeline stage results  </li>
+</ul>
+<p>The goal was reliability and clarity, not complexity.</p>
+<h2 id="working-with-real-world-data">Working with Real-World Data</h2>
+<p>The most challenging part of the build was not the UI or the pipeline.</p>
+<p>It was the data.</p>
+<p>Real-world cybersecurity reporting is inconsistent. Titles are vague. Summaries mix narrative with boilerplate. Advisory feeds include structured content that does not behave like normal articles.</p>
+<p>A few lessons that shaped the current approach:</p>
+<ul>
+<li>
+<p><strong>Only extract what is clearly present</strong><br>
+  If a victim is not explicitly named, leave it empty  </p>
+</li>
+<li>
+<p><strong>Unknown is better than wrong</strong><br>
+  Avoid forcing industry or geography when the signal is weak  </p>
+</li>
+<li>
+<p><strong>Short summaries matter</strong><br>
+  Long advisory text destroys scanability  </p>
+</li>
+<li>
+<p><strong>Not all sources are equal</strong><br>
+  Some feeds require filtering or simplification to be usable  </p>
+</li>
+</ul>
+<p>One example was CISA advisories. Raw output was unusable in a feed. The solution was not to parse everything, but to reduce it to a single, clean sentence or drop it entirely.</p>
+<h2 id="design-philosophy">Design Philosophy</h2>
+<p>A few principles guided the build:</p>
+<ul>
+<li><strong>Clarity over completeness</strong>  </li>
+<li><strong>Consistency over cleverness</strong>  </li>
+<li><strong>Deterministic behavior over heuristics</strong>  </li>
+<li><strong>Signal over volume</strong>  </li>
+</ul>
+<p>The UI reflects that:</p>
+<ul>
+<li>minimal layout  </li>
+<li>structured cards  </li>
+<li>no unnecessary metrics  </li>
+<li>fast scanning  </li>
+</ul>
+<p>If something cannot be understood quickly, it does not belong.</p>
+<h2 id="current-state">Current State</h2>
+<p>At this stage, Cyber Signal is stable as an MVP:</p>
+<ul>
+<li>Live ingestion from multiple sources  </li>
+<li>Clean event clustering  </li>
+<li>Reliable scheduled updates  </li>
+<li>Structured, readable output  </li>
+</ul>
+<p>It is not feature-complete, and that is intentional.</p>
+<h2 id="what-comes-next">What Comes Next</h2>
+<p>Future directions will likely focus on:</p>
+<ul>
+<li>Expanding source coverage carefully  </li>
+<li>Improving extraction where patterns repeat  </li>
+<li>Introducing a lightweight historical layer  </li>
+<li>Refining how events evolve over time  </li>
+</ul>
+<p>But any additions will follow the same constraint:</p>
+<blockquote>
+<p>If it increases complexity without improving clarity, it does not get added.</p>
+</blockquote>
 <h2 id="closing-thought">Closing Thought</h2>
-<p>We plan extensively for how we will respond to incidents.</p>
-<p>We should spend just as much time thinking about how we sustain the people responsible for responding to them.</p>
-<p>Still working on that.</p>
+<p>There is a lot of value in stepping back from raw data and asking a simpler question:</p>
+<blockquote>
+<p>What actually matters right now?</p>
+</blockquote>
+<p>Cyber Signal is an attempt to answer that question in a consistent way.</p>
+<p>Still early, but it is starting to feel useful.</p>
 <p><em>Joe Hawley</em><br>
 Cybersecurity Director<br>
 M.S. Cybersecurity Graduate Student, Georgia Institute of Technology</p>
