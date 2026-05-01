@@ -86,17 +86,17 @@ Everything is deterministic. No scoring engines, no heavy AI layers, no opaque l
 
 Cyber Signal is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.
 
-| # | Component        | Details                                                                 |
-|---|------------------|-------------------------------------------------------------------------|
-| 1 | **Backend**      | Python + Flask (modular services and blueprints)                       |
-| 2 | **Database**     | SQLite (local) with SQLAlchemy ORM                                     |
-| 3 | **Frontend**     | Vanilla JavaScript + minimal HTML/CSS                                  |
-| 4 | **Ingestion**    | RSS feeds (news + CISA advisories) + JSON (CISA KEV)                   |
-| 5 | **Processing**   | Rule-based filtering for relevance and signal quality                  |
-| 6 | **Extraction**   | Deterministic parsing for victim, attack type, industry, and summary   |
-| 7 | **Clustering**   | Lightweight matching to group related articles into events             |
-| 8 | **Scheduler**    | APScheduler for automated pipeline execution                           |
-| 9 | **Runtime**      | Gunicorn (local/LAN testing)                                           |
+| # | Component        | Details                                                               |
+|---|------------------|-----------------------------------------------------------------------|
+| 1 | **Backend**      | Python + Flask (modular services and blueprints)                      |
+| 2 | **Database**     | Database PostgreSQL with SQLAlchemy ORM and Alembic migrations        |
+| 3 | **Frontend**     | Vanilla JavaScript + minimal HTML/CSS                                 |
+| 4 | **Ingestion**    | RSS feeds (news + CISA advisories) + JSON (CISA KEV)                  |
+| 5 | **Processing**   | Rule-based filtering for relevance and signal quality                 |
+| 6 | **Extraction**   | Deterministic parsing for victim, attack type, industry, and summary  |
+| 7 | **Clustering**   | Lightweight matching to group related articles into events            |
+| 8 | **Scheduler**    | APScheduler for automated pipeline execution                          |
+| 9 | **Runtime**      | Runtime Gunicorn (production WSGI server, single-instance deployment) |
 
 ## Automation
 
