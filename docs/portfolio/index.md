@@ -6,7 +6,7 @@ Selected work and contributions over time
 
 <div class="grid cards" markdown>
 
-- ![Cyber Signal](../images/portfolio/cyber-signal.jpg)
+- ![Cyber Signal](../images/portfolio/cyber-signal.png)
   **Building Cyber Signal App** · 2026  
   Cyber Signal provides a clean, structured view of meaningful cyber events.  
   [Learn more →](../articles/building-cyber-signal){ target="_new" rel="noopener" }
