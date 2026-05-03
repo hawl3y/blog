@@ -191,6 +191,10 @@ Cyber Signal is an attempt to answer that question in a consistent way.
 
 Still early, but it is starting to feel useful.
 
+If you want to see how that looks in practice, you can explore it here:
+
+[https://signal.joehawley.com/](https://signal.joehawley.com/){ target="_blank" rel="noopener" }
+
 *Joe Hawley*  
 Cybersecurity Director  
 M.S. Cybersecurity Graduate Student, Georgia Institute of Technology
