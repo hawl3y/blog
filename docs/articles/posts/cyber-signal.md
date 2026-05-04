@@ -91,12 +91,12 @@ Cyber Signal is intentionally simple from a technology standpoint. The goal was 
 | 1 | **Backend**      | Python + Flask (modular services and blueprints)                      |
 | 2 | **Database**     | PostgreSQL with SQLAlchemy ORM and Alembic migrations                 |
 | 3 | **Frontend**     | Vanilla JavaScript + minimal HTML/CSS                                 |
-| 4 | **Ingestion**    | RSS feeds (news + CISA advisories) + JSON (CISA KEV)                  |
+| 4 | **Ingestion**    | RSS feeds (cyber news and CISA advisories) + JSON (CISA KEV)          |
 | 5 | **Processing**   | Rule-based filtering for relevance and signal quality                 |
 | 6 | **Extraction**   | Deterministic parsing for victim, attack type, industry, and summary  |
 | 7 | **Clustering**   | Lightweight matching to group related articles into events            |
-| 8 | **Scheduler**    | APScheduler for automated pipeline execution                          |
-| 9 | **Runtime**      | Gunicorn (production WSGI server, single-instance deployment)         |
+| 8 | **Automation**   | Scheduled pipeline execution via Render Cron                          |
+| 9 | **Runtime**      | Gunicorn (WSGI server on Render, single web instance)                 |
 
 ## Automation
 
@@ -107,10 +107,12 @@ The system runs on a simple scheduled loop:
 - Cluster into events  
 - Update the feed  
 
-A lightweight scheduler runs the full pipeline at a fixed interval and tracks:
+The pipeline is executed on a fixed interval using a scheduled job.
 
-- last run time  
-- success/failure  
+Each run records:
+
+- start and finish time  
+- success or failure  
 - pipeline stage results  
 
 The goal was reliability and clarity, not complexity.

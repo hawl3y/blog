@@ -780,7 +780,7 @@
 <tr>
 <td>4</td>
 <td><strong>Ingestion</strong></td>
-<td>RSS feeds (news + CISA advisories) + JSON (CISA KEV)</td>
+<td>RSS feeds (cyber news and CISA advisories) + JSON (CISA KEV)</td>
 </tr>
 <tr>
 <td>5</td>
@@ -799,13 +799,13 @@
 </tr>
 <tr>
 <td>8</td>
-<td><strong>Scheduler</strong></td>
-<td>APScheduler for automated pipeline execution</td>
+<td><strong>Automation</strong></td>
+<td>Scheduled pipeline execution via Render Cron</td>
 </tr>
 <tr>
 <td>9</td>
 <td><strong>Runtime</strong></td>
-<td>Gunicorn (production WSGI server, single-instance deployment)</td>
+<td>Gunicorn (WSGI server on Render, single web instance)</td>
 </tr>
 </tbody>
 </table>
@@ -817,10 +817,11 @@
 <li>Cluster into events  </li>
 <li>Update the feed  </li>
 </ul>
-<p>A lightweight scheduler runs the full pipeline at a fixed interval and tracks:</p>
+<p>The pipeline is executed on a fixed interval using a scheduled job.</p>
+<p>Each run records:</p>
 <ul>
-<li>last run time  </li>
-<li>success/failure  </li>
+<li>start and finish time  </li>
+<li>success or failure  </li>
 <li>pipeline stage results  </li>
 </ul>
 <p>The goal was reliability and clarity, not complexity.</p>
