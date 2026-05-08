@@ -65,6 +65,10 @@ plugins:
       blog_dir: articles
       post_url_format: "{slug}"
   - search
+  - privacy:
+      links_attr_map:
+        target: _blank
+      links_noopener: true
   - glightbox:
       touchNavigation: true
       loop: true

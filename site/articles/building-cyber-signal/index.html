@@ -42,8 +42,8 @@
       
         
         
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,300i,400,400i,700,700i%7CRoboto+Mono:400,400i,700,700i&amp;display=fallback">
+        
+        <link rel="stylesheet" href="../../assets/external/fonts.googleapis.com/css.49ea35f2.css">
         <style>:root{--md-text-font:"Roboto";--md-code-font:"Roboto Mono"}</style>
       
     
@@ -305,7 +305,7 @@
   
   
     <li class="md-tabs__item">
-      <a href="https://signal.joehawley.com" class="md-tabs__link">
+      <a href="https://signal.joehawley.com" class="md-tabs__link" target="_blank" rel="noopener">
         
   
   
@@ -471,7 +471,7 @@
   
   
     <li class="md-nav__item">
-      <a href="https://signal.joehawley.com" class="md-nav__link">
+      <a href="https://signal.joehawley.com" class="md-nav__link" target="_blank" rel="noopener">
         
   
   
@@ -720,7 +720,7 @@
 
 
 <h1 id="building-a-high-signal-cyber-event-brief">Building a High-Signal Cyber Event Brief</h1>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../images/apps/signal/high-signal.jpg" data-title="High-Signal Events" data-desc-position="bottom"><img alt="High-Signal Events" class="app-shot" src="../../images/apps/signal/high-signal.jpg"></a></p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="High-Signal Events" data-desc-position="bottom"><img alt="High-Signal Events" class="app-shot" src="../../images/apps/signal/high-signal.jpg"></a></p>
 <p>Cyber Signal started from a simple frustration.</p>
 <p>There is no shortage of cybersecurity information. News feeds, advisories, research blogs, vendor reports. But most of it is fragmented, repetitive, and difficult to interpret when you just want to understand:</p>
 <ul>
@@ -736,7 +736,7 @@
 <!-- more -->
 
 <h2 id="cyber-signal-in-practice">Cyber Signal in Practice</h2>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" href="../../images/apps/signal/feed-overview.jpg" data-title="Cyber Signal event feed" data-desc-position="bottom"><img alt="Cyber Signal event feed" class="app-shot" loading="lazy" src="../../images/apps/signal/feed-overview.jpg"></a>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Cyber Signal event feed" data-desc-position="bottom"><img alt="Cyber Signal event feed" class="app-shot" loading="lazy" src="../../images/apps/signal/feed-overview.jpg"></a>
 <em>Filtered view showing incidents and activity in a single high-signal feed.</em></p>
 <h2 id="what-cyber-signal-is-and-isnt">What Cyber Signal Is (and Isn’t)</h2>
 <p>Cyber Signal is intentionally narrow in scope.</p>
@@ -978,7 +978,7 @@ M.S. Cybersecurity Graduate Student, Georgia Institute of Technology</p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      © 2026 Hawley | Built with  <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank">Material for MkDocs</a>
+      © 2026 Hawley | Built with  <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">Material for MkDocs</a>
     </div>
   
   
@@ -1040,8 +1040,22 @@ M.S. Cybersecurity Graduate Student, Georgia Institute of Technology</p>
     
       <script src="../../assets/javascripts/bundle.79ae519e.min.js"></script>
       
+        <script src="../../assets/external/unpkg.com/mermaid@11/dist/mermaid.min.js"></script>
+      
     
   
-<script id="init-glightbox">const lightbox = GLightbox({"touchNavigation": true, "loop": true, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
+<script id="init-glightbox">document.querySelectorAll('.glightbox').forEach(function(element) {
+    try {
+        var img = element.querySelector('img');
+        if (img && img.src) {
+            element.setAttribute('href', img.src);
+        } else {
+            console.log('No img element with src attribute found');
+        }
+    } catch (error) {
+        console.log('Error:', error);
+    }
+});
+const lightbox = GLightbox({"touchNavigation": true, "loop": true, "zoomable": true, "draggable": true, "openEffect": "zoom", "closeEffect": "zoom", "slideEffect": "slide"});
 document$.subscribe(()=>{ lightbox.reload(); });
 </script></body></html>
