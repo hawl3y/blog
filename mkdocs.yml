@@ -48,6 +48,7 @@ nav:
   - Portfolio: portfolio/index.md
   - Articles: articles/index.md
   - About: about.md
+  - Cyber Signal: https://signal.joehawley.com
 
 extra_css:
   - stylesheets/extra.css
