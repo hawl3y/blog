@@ -6,6 +6,11 @@ Selected work and contributions over time
 
 <div class="grid cards" markdown>
 
+- ![Kiyomi Hawley](../images/portfolio/kiyomi-hawley.jpg)
+  **Artist Website Build** · 2026  
+  A streamlined site using Next.js and Vercel, focused on maintainability.  
+  [Learn more →](../articles/a-practical-stack-for-an-artist-website){ target="_new" rel="noopener" }
+
 - ![Cyber Signal](../images/portfolio/cyber-signal.png)
   **Building Cyber Signal App** · 2026  
   Cyber Signal provides a clean, structured view of meaningful cyber events.  

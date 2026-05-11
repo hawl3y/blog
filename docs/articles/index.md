@@ -1,7 +1,7 @@
 # Articles { .text-center }
 
 <div class="sub-heading" markdown>
-Thoughts on cybersecurity in practice
+Thoughts on security and building technology in practice
 </div>
 
 --- 

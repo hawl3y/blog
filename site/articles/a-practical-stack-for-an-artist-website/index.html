@@ -3,17 +3,15 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A look at building Cyber Signal, a high-signal cyber event brief that turns fragmented reporting into a clean, structured view of meaningful cybersecurity activity.">
+        <meta name="description" content="A practical look at redesigning kiyomihawley.com with a focus on simplicity, durability, and a modern stack that stays easy to maintain over time.">
       
       
         <meta name="author" content="Joe Hawley">
       
       
       
-        <link rel="prev" href="../burnout-is-part-of-the-risk-model/">
+        <link rel="prev" href="../building-cyber-signal/">
       
-      
-        <link rel="next" href="../a-practical-stack-for-an-artist-website/">
       
       
         
@@ -24,7 +22,7 @@
     
     
       
-        <title>Building Cyber Signal - Hawley</title>
+        <title>A Practical Stack for an Artist Website - Hawley</title>
       
     
     
@@ -87,7 +85,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#building-a-high-signal-cyber-event-brief" class="md-skip">
+        <a href="#a-practical-stack-for-an-artist-website" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +118,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Building Cyber Signal
+              A Practical Stack for an Artist Website
             
           </span>
         </div>
@@ -522,10 +520,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#cyber-signal-in-practice" class="md-nav__link">
+  <a href="#the-goal" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cyber Signal in Practice
+        The Goal
       
     </span>
   </a>
@@ -533,10 +531,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-cyber-signal-is-and-isnt" class="md-nav__link">
+  <a href="#what-changed" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What Cyber Signal Is (and Isn’t)
+        What Changed
       
     </span>
   </a>
@@ -544,30 +542,24 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#how-it-works" class="md-nav__link">
+  <a href="#content-without-a-cms" class="md-nav__link">
     <span class="md-ellipsis">
       
-        How It Works
-      
-    </span>
-  </a>
-  
-    <nav class="md-nav" aria-label="How It Works">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#pipeline" class="md-nav__link">
-    <span class="md-ellipsis">
-      
-        Pipeline
+        Content Without a CMS
       
     </span>
   </a>
   
 </li>
-        
-      </ul>
-    </nav>
+      
+        <li class="md-nav__item">
+  <a href="#deployment-and-operations" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Deployment and Operations
+      
+    </span>
+  </a>
   
 </li>
       
@@ -594,10 +586,10 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#working-with-real-world-data" class="md-nav__link">
+  <a href="#handling-real-world-integrations" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Working with Real-World Data
+        Handling Real-World Integrations
       
     </span>
   </a>
@@ -605,10 +597,21 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#design-philosophy" class="md-nav__link">
+  <a href="#design-decisions-that-matter" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Design Philosophy
+        Design Decisions That Matter
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#tradeoffs" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Tradeoffs
       
     </span>
   </a>
@@ -685,7 +688,7 @@
                     <li class="md-nav__item">
                       <div class="md-nav__link">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 19H5V8h14m-3-7v2H8V1H6v2H5c-1.11 0-2 .89-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V5a2 2 0 0 0-2-2h-1V1m-1 11h-5v5h5z"></path></svg>
-                        <time datetime="2026-04-30 00:00:00+00:00" class="md-ellipsis">April 30, 2026</time>
+                        <time datetime="2026-05-11 00:00:00+00:00" class="md-ellipsis">May 11, 2026</time>
                       </div>
                     </li>
                     
@@ -721,86 +724,73 @@
 
 
 
-<h1 id="building-a-high-signal-cyber-event-brief">Building a High-Signal Cyber Event Brief</h1>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="High-Signal Events" data-desc-position="bottom"><img alt="High-Signal Events" class="app-shot" src="../../images/apps/signal/high-signal.jpg"></a></p>
-<p>Cyber Signal started from a simple frustration.</p>
-<p>There is no shortage of cybersecurity information. News feeds, advisories, research blogs, vendor reports. But most of it is fragmented, repetitive, and difficult to interpret when you just want to understand:</p>
-<ul>
-<li>What actually happened  </li>
-<li>Who was affected  </li>
-<li>What type of attack it was  </li>
-<li>Whether it matters  </li>
-</ul>
-<p>The goal with Cyber Signal was not to build another dashboard or intelligence platform. It was to build something much simpler:</p>
+<h1 id="a-practical-stack-for-an-artist-website">A Practical Stack for an Artist Website</h1>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Kiyomi Hawley Site" data-desc-position="bottom"><img alt="Kiyomi Hawley Site" class="app-shot" src="../../images/apps/ki/kiyomi-hawley-website-preview.jpg"></a></p>
+<p>Most websites do not break all at once.</p>
+<p>They slowly become harder to update, harder to trust, and eventually outdated.</p>
+<p>The redesign of kiyomihawley.com started with a simple constraint:</p>
 <blockquote>
-<p>A clean, structured view of meaningful cyber events.</p>
+<p>Keep it easy to maintain, even months after launch.</p>
 </blockquote>
 <!-- more -->
 
-<h2 id="cyber-signal-in-practice">Cyber Signal in Practice</h2>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Cyber Signal event feed" data-desc-position="bottom"><img alt="Cyber Signal event feed" class="app-shot" loading="lazy" src="../../images/apps/signal/feed-overview.jpg"></a>
-<em>Filtered view showing incidents and activity in a single high-signal feed.</em></p>
-<h2 id="what-cyber-signal-is-and-isnt">What Cyber Signal Is (and Isn’t)</h2>
-<p>Cyber Signal is intentionally narrow in scope.</p>
-<p>It is:</p>
+<h2 id="the-goal">The Goal</h2>
+<p>This was not a design-first project.</p>
+<p>It was an operating model decision.</p>
+<p>The requirements were clear:</p>
 <ul>
-<li>A <strong>single-page event brief</strong></li>
-<li>Focused on <strong>recent, meaningful cyber activity</strong></li>
-<li>Designed to be read in <strong>under a minute</strong></li>
+<li>Easy to update without logging into a CMS  </li>
+<li>Fast to deploy with minimal friction  </li>
+<li>Stable across external dependencies  </li>
+<li>Flexible enough to grow with new content  </li>
 </ul>
-<p>It is not:</p>
-<ul>
-<li>A SIEM  </li>
-<li>A threat intelligence platform  </li>
-<li>A vulnerability database  </li>
-<li>A full analytics tool  </li>
-</ul>
-<p>The core idea is simple:</p>
+<p>In simple terms:</p>
 <blockquote>
-<p>The primary unit of value is the event, not the article.</p>
+<p>The site should support the work, not create more of it.</p>
 </blockquote>
-<h2 id="how-it-works">How It Works</h2>
-<p>At a high level, Cyber Signal takes messy, real-world reporting and turns it into structured events.</p>
-<h3 id="pipeline">Pipeline</h3>
-<ol>
-<li><strong>Ingest</strong></li>
-<li>RSS feeds from curated sources (Krebs, BleepingComputer, The Record)</li>
-<li>CISA KEV JSON feed</li>
-<li>
-<p>CISA advisory RSS feed (with strict filtering)</p>
-</li>
-<li>
-<p><strong>Process</strong></p>
-</li>
-<li>Remove irrelevant or low-signal content  </li>
-<li>
-<p>Filter out legal follow-ups, marketing, and general guidance  </p>
-</li>
-<li>
-<p><strong>Extract</strong></p>
-</li>
-<li>Identify victim (only when clearly stated)</li>
-<li>Infer attack type (ransomware, breach, exploitation, etc.)</li>
-<li>Assign industry only when supported by evidence  </li>
-<li>
-<p>Normalize summaries into short, readable statements  </p>
-</li>
-<li>
-<p><strong>Cluster</strong></p>
-</li>
-<li>Group related articles into a single event  </li>
-<li>
-<p>Prevent duplication across repeated reporting  </p>
-</li>
-<li>
-<p><strong>Serve</strong></p>
-</li>
-<li>Deliver a clean, structured event feed via API  </li>
-<li>Render a simple, scannable UI  </li>
-</ol>
-<p>Everything is deterministic. No scoring engines, no heavy AI layers, no opaque logic.</p>
+<h2 id="what-changed">What Changed</h2>
+<p>The previous version leaned more on manual updates and less structured content.</p>
+<p>The redesign shifts to a code-first model with a few consistent patterns:</p>
+<ul>
+<li>Content is defined in structured files  </li>
+<li>Components render directly from those files  </li>
+<li>External services are used only where they add clear value  </li>
+</ul>
+<p>There is no CMS.</p>
+<p>That is intentional.</p>
+<h2 id="content-without-a-cms">Content Without a CMS</h2>
+<p>All content updates happen in code.</p>
+<p>In practice:</p>
+<ul>
+<li>Discography is managed in a single TypeScript file  </li>
+<li>Media and press are grouped into structured arrays  </li>
+<li>Updates are written as small, consistent objects  </li>
+</ul>
+<p>Each section follows the same rule:</p>
+<blockquote>
+<p>Structured input, predictable output.</p>
+</blockquote>
+<p>This avoids:</p>
+<ul>
+<li>Formatting inconsistencies  </li>
+<li>Hidden state across systems  </li>
+<li>Logging into multiple tools just to make a small change  </li>
+</ul>
+<p>It also makes version control straightforward.</p>
+<h2 id="deployment-and-operations">Deployment and Operations</h2>
+<p>The deployment model is deliberately simple.</p>
+<ul>
+<li>Push to the main branch  </li>
+<li>Vercel automatically builds and deploys  </li>
+<li>Changes are live within minutes  </li>
+</ul>
+<p>No manual release steps.</p>
+<p>No separate deployment process.</p>
+<p>That matters more than it sounds.</p>
+<p>When updates are easy, they actually happen.</p>
 <h2 id="tech-stack">Tech Stack</h2>
-<p>Cyber Signal is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.</p>
+<p>The site uses a small, explicit stack.</p>
+<p>Not minimal for the sake of it, but constrained on purpose.</p>
 <table>
 <thead>
 <tr>
@@ -812,137 +802,164 @@
 <tbody>
 <tr>
 <td>1</td>
-<td><strong>Backend</strong></td>
-<td>Python + Flask (modular services and blueprints)</td>
+<td><strong>Framework</strong></td>
+<td>Next.js (App Router) for routing, server-side rendering, and data fetching</td>
 </tr>
 <tr>
 <td>2</td>
-<td><strong>Database</strong></td>
-<td>PostgreSQL with SQLAlchemy ORM and Alembic migrations</td>
+<td><strong>Frontend</strong></td>
+<td>React with TypeScript</td>
 </tr>
 <tr>
 <td>3</td>
-<td><strong>Frontend</strong></td>
-<td>Vanilla JavaScript + minimal HTML/CSS</td>
+<td><strong>Hosting</strong></td>
+<td>Vercel with automatic deployments on push to main</td>
 </tr>
 <tr>
 <td>4</td>
-<td><strong>Ingestion</strong></td>
-<td>RSS feeds (cyber news and CISA advisories) + JSON (CISA KEV)</td>
+<td><strong>Content</strong></td>
+<td>Code-based content (TypeScript files in <code>/lib</code> for music, media, updates)</td>
 </tr>
 <tr>
 <td>5</td>
-<td><strong>Processing</strong></td>
-<td>Rule-based filtering for relevance and signal quality</td>
+<td><strong>Data Store</strong></td>
+<td>Upstash Redis (visitor count, Instagram token storage)</td>
 </tr>
 <tr>
 <td>6</td>
-<td><strong>Extraction</strong></td>
-<td>Deterministic parsing for victim, attack type, industry, and summary</td>
+<td><strong>Integrations</strong></td>
+<td>Instagram Graph API, SoundCloud embed, YouTube embed</td>
 </tr>
 <tr>
 <td>7</td>
-<td><strong>Clustering</strong></td>
-<td>Lightweight matching to group related articles into events</td>
+<td><strong>Automation</strong></td>
+<td>Vercel cron job (weekly Instagram token refresh)</td>
 </tr>
 <tr>
 <td>8</td>
-<td><strong>Automation</strong></td>
-<td>Scheduled pipeline execution via Render Cron</td>
+<td><strong>Caching</strong></td>
+<td>Next.js caching (1-hour cache for Instagram feed data)</td>
 </tr>
 <tr>
 <td>9</td>
-<td><strong>Runtime</strong></td>
-<td>Gunicorn (WSGI server on Render, single web instance)</td>
+<td><strong>DNS</strong></td>
+<td>Dreamhost managing domain routing</td>
 </tr>
 </tbody>
 </table>
-<h2 id="automation">Automation</h2>
-<p>The system runs on a simple scheduled loop:</p>
-<ul>
-<li>Ingest new data  </li>
-<li>Process and extract signals  </li>
-<li>Cluster into events  </li>
-<li>Update the feed  </li>
-</ul>
-<p>The pipeline is executed on a fixed interval using a scheduled job.</p>
-<p>Each run records:</p>
-<ul>
-<li>start and finish time  </li>
-<li>success or failure  </li>
-<li>pipeline stage results  </li>
-</ul>
-<p>The goal was reliability and clarity, not complexity.</p>
-<h2 id="working-with-real-world-data">Working with Real-World Data</h2>
-<p>The most challenging part of the build was not the UI or the pipeline.</p>
-<p>It was the data.</p>
-<p>Real-world cybersecurity reporting is inconsistent. Titles are vague. Summaries mix narrative with boilerplate. Advisory feeds include structured content that does not behave like normal articles.</p>
-<p>A few lessons that shaped the current approach:</p>
+<p>A few intentional decisions behind this:</p>
 <ul>
 <li>
-<p><strong>Only extract what is clearly present</strong><br>
-  If a victim is not explicitly named, leave it empty  </p>
+<p><strong>Next.js instead of a static-only site</strong><br>
+  Allows small dynamic features without introducing a full backend  </p>
 </li>
 <li>
-<p><strong>Unknown is better than wrong</strong><br>
-  Avoid forcing industry or geography when the signal is weak  </p>
+<p><strong>Vercel for hosting</strong><br>
+  Removes operational overhead and simplifies deployment  </p>
 </li>
 <li>
-<p><strong>Short summaries matter</strong><br>
-  Long advisory text destroys scanability  </p>
+<p><strong>Redis instead of a database</strong><br>
+  Supports lightweight state without adding unnecessary complexity  </p>
 </li>
 <li>
-<p><strong>Not all sources are equal</strong><br>
-  Some feeds require filtering or simplification to be usable  </p>
+<p><strong>Code-based content instead of a CMS</strong><br>
+  Keeps everything version-controlled and predictable  </p>
 </li>
 </ul>
-<p>One example was CISA advisories. Raw output was unusable in a feed. The solution was not to parse everything, but to reduce it to a single, clean sentence or drop it entirely.</p>
-<h2 id="design-philosophy">Design Philosophy</h2>
-<p>A few principles guided the build:</p>
-<ul>
-<li><strong>Clarity over completeness</strong>  </li>
-<li><strong>Consistency over cleverness</strong>  </li>
-<li><strong>Deterministic behavior over heuristics</strong>  </li>
-<li><strong>Signal over volume</strong>  </li>
-</ul>
-<p>The UI reflects that:</p>
-<ul>
-<li>minimal layout  </li>
-<li>structured cards  </li>
-<li>no unnecessary metrics  </li>
-<li>fast scanning  </li>
-</ul>
-<p>If something cannot be understood quickly, it does not belong.</p>
-<h2 id="current-state">Current State</h2>
-<p>At this stage, Cyber Signal is stable as an MVP:</p>
-<ul>
-<li>Live ingestion from multiple sources  </li>
-<li>Clean event clustering  </li>
-<li>Reliable scheduled updates  </li>
-<li>Structured, readable output  </li>
-</ul>
-<p>It is not feature-complete, and that is intentional.</p>
-<h2 id="what-comes-next">What Comes Next</h2>
-<p>Future directions will likely focus on:</p>
-<ul>
-<li>Expanding source coverage carefully  </li>
-<li>Improving extraction where patterns repeat  </li>
-<li>Introducing a lightweight historical layer  </li>
-<li>Refining how events evolve over time  </li>
-</ul>
-<p>But any additions will follow the same constraint:</p>
+<p>The broader point:</p>
 <blockquote>
-<p>If it increases complexity without improving clarity, it does not get added.</p>
+<p>The stack supports the operating model, not the other way around.</p>
+</blockquote>
+<h2 id="automation">Automation</h2>
+<p>There are only a few moving parts, but each removes manual work:</p>
+<ul>
+<li>A scheduled cron job refreshes the Instagram access token weekly  </li>
+<li>The token is stored in Redis and reused across requests  </li>
+<li>Instagram feed responses are cached to reduce API calls  </li>
+</ul>
+<p>There is also a fallback path if the token is missing on first deploy.</p>
+<p>The goal is not to eliminate failure.</p>
+<p>It is to make failure recoverable.</p>
+<h2 id="handling-real-world-integrations">Handling Real-World Integrations</h2>
+<p>The most fragile part of most sites is not the UI.</p>
+<p>It is the integrations.</p>
+<p>For example, the Instagram feed:</p>
+<ul>
+<li>Pulls directly from the Instagram Graph API  </li>
+<li>Uses a long-lived token that is automatically refreshed  </li>
+<li>Falls back to an environment variable if Redis is empty  </li>
+<li>Caches responses to avoid rate limits  </li>
+</ul>
+<p>No third-party widgets.</p>
+<p>Fewer external dependencies.</p>
+<p>More control over behavior.</p>
+<h2 id="design-decisions-that-matter">Design Decisions That Matter</h2>
+<p>A few small choices make a meaningful difference over time:</p>
+<ul>
+<li>
+<p><strong>No CMS</strong><br>
+  Reduces complexity and long-term maintenance  </p>
+</li>
+<li>
+<p><strong>Structured content files</strong><br>
+  Keeps updates consistent  </p>
+</li>
+<li>
+<p><strong>Automatic deployments</strong><br>
+  Encourages frequent, low-friction updates  </p>
+</li>
+<li>
+<p><strong>Minimal state</strong><br>
+  Avoids debugging hidden issues  </p>
+</li>
+<li>
+<p><strong>Clear separation of concerns</strong><br>
+  Content, components, and integrations are easy to reason about  </p>
+</li>
+</ul>
+<p>None of these are complex individually.</p>
+<p>Together, they make the system durable.</p>
+<h2 id="tradeoffs">Tradeoffs</h2>
+<p>This approach is not perfect.</p>
+<p>A few tradeoffs are intentional:</p>
+<ul>
+<li>Content updates require code changes  </li>
+<li>Non-technical edits are not built in  </li>
+<li>Some integrations require manual recovery if they fail  </li>
+</ul>
+<p>Those are acceptable here.</p>
+<p>Because the priority is long-term maintainability.</p>
+<h2 id="current-state">Current State</h2>
+<p>The site is now:</p>
+<ul>
+<li>Fast to update  </li>
+<li>Stable in production  </li>
+<li>Structured in a way that is easy to understand  </li>
+</ul>
+<p>Most importantly, it does not require constant attention.</p>
+<h2 id="what-comes-next">What Comes Next</h2>
+<p>Future updates will likely stay within the same model:</p>
+<ul>
+<li>Expanding content sections as needed  </li>
+<li>Refining how updates and releases are presented  </li>
+</ul>
+<p>But the constraint remains:</p>
+<blockquote>
+<p>If it adds maintenance overhead without clear value, it does not get added.</p>
 </blockquote>
 <h2 id="closing-thought">Closing Thought</h2>
-<p>There is a lot of value in stepping back from raw data and asking a simpler question:</p>
-<blockquote>
-<p>What actually matters right now?</p>
-</blockquote>
-<p>Cyber Signal is an attempt to answer that question in a consistent way.</p>
-<p>Still early, but it is starting to feel useful.</p>
+<p>A website for a working artist has a different job.</p>
+<p>It needs to:</p>
+<ul>
+<li>Represent the work clearly  </li>
+<li>Stay current without friction  </li>
+<li>Handle real-world updates without breaking  </li>
+</ul>
+<p>Everything else is secondary.</p>
+<p>The real test is not how it looks on launch day.</p>
+<p>It is whether it is still accurate, usable, and easy to update over time.</p>
 <p>If you want to see how that looks in practice, you can explore it here:</p>
-<p><a href="https://signal.joehawley.com/" rel="noopener" target="_blank">https://signal.joehawley.com/</a></p>
+<p><a href="https://kiyomihawley.com" rel="noopener" target="_blank">https://kiyomihawley.com</a></p>
 <p><em>Joe Hawley</em><br>
 Cybersecurity Director<br>
 M.S. Cybersecurity Graduate Student, Georgia Institute of Technology</p>
