@@ -3,7 +3,7 @@
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width,initial-scale=1">
       
-        <meta name="description" content="A look at building Cyber Signal, a high-signal cyber event brief that turns fragmented reporting into a clean, structured view of meaningful cybersecurity activity.">
+        <meta name="description" content="A look at building Cyber BLUF, a focused cyber incident brief that turns fragmented reporting into structured, deduplicated named-victim events.">
       
       
         <meta name="author" content="Joe Hawley">
@@ -24,7 +24,7 @@
     
     
       
-        <title>Building Cyber Signal - Hawley</title>
+        <title>Building Cyber BLUF - Hawley</title>
       
     
     
@@ -87,7 +87,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#building-a-high-signal-cyber-event-brief" class="md-skip">
+        <a href="#building-cyber-bluf" class="md-skip">
           Skip to content
         </a>
       
@@ -120,7 +120,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Building Cyber Signal
+              Building Cyber BLUF
             
           </span>
         </div>
@@ -522,10 +522,10 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix="">
       
         <li class="md-nav__item">
-  <a href="#cyber-signal-in-practice" class="md-nav__link">
+  <a href="#bluf" class="md-nav__link">
     <span class="md-ellipsis">
       
-        Cyber Signal in Practice
+        BLUF
       
     </span>
   </a>
@@ -533,10 +533,32 @@
 </li>
       
         <li class="md-nav__item">
-  <a href="#what-cyber-signal-is-and-isnt" class="md-nav__link">
+  <a href="#cyber-bluf-in-practice" class="md-nav__link">
     <span class="md-ellipsis">
       
-        What Cyber Signal Is (and Isn’t)
+        Cyber BLUF in Practice
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#what-cyber-bluf-is-and-isnt" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        What Cyber BLUF Is (and Isn’t)
+      
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#product-floor" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Product Floor
       
     </span>
   </a>
@@ -568,6 +590,17 @@
         
       </ul>
     </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#trust-and-impact" class="md-nav__link">
+    <span class="md-ellipsis">
+      
+        Trust and Impact
+      
+    </span>
+  </a>
   
 </li>
       
@@ -697,7 +730,7 @@
                           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 20a8 8 0 0 0 8-8 8 8 0 0 0-8-8 8 8 0 0 0-8 8 8 8 0 0 0 8 8m0-18a10 10 0 0 1 10 10 10 10 0 0 1-10 10C6.47 22 2 17.5 2 12A10 10 0 0 1 12 2m.5 5v5.25l4.5 2.67-.75 1.23L11 13V7z"></path></svg>
                           <span class="md-ellipsis">
                             
-                              4 min read
+                              5 min read
                             
                           </span>
                         </div>
@@ -721,86 +754,136 @@
 
 
 
-<h1 id="building-a-high-signal-cyber-event-brief">Building a High-Signal Cyber Event Brief</h1>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="High-Signal Events" data-desc-position="bottom"><img alt="High-Signal Events" class="app-shot" src="../../images/apps/signal/high-signal.jpg"></a></p>
-<p>Cyber Signal started from a simple frustration.</p>
+<h1 id="building-cyber-bluf">Building Cyber BLUF</h1>
+<h2 id="bluf">BLUF</h2>
+<p>Cyber BLUF answers one narrow question:</p>
+<blockquote>
+<p>What confirmed cyber incidents involving named organizations happened recently, and who is behind them?</p>
+</blockquote>
+<p>It is not a news aggregator, ransomware tracker, SIEM, vulnerability feed, or comprehensive threat intelligence platform.</p>
+<p>It is a curated incident intelligence surface built around structured, deduplicated events. Every event shown has a named victim. The unit of value is the event, not the article.</p>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Cyber BLUF" data-desc-position="bottom"><img alt="Cyber BLUF" class="app-shot" src="../../images/apps/bluf/cyber-bluf-stryker.jpg"></a></p>
+<p>Cyber BLUF started from a simple frustration.</p>
 <p>There is no shortage of cybersecurity information. News feeds, advisories, research blogs, vendor reports. But most of it is fragmented, repetitive, and difficult to interpret when you just want to understand:</p>
 <ul>
-<li>What actually happened  </li>
-<li>Who was affected  </li>
-<li>What type of attack it was  </li>
-<li>Whether it matters  </li>
+<li>What actually happened</li>
+<li>Who was affected</li>
+<li>Whether it is confirmed</li>
+<li>Who is behind it</li>
 </ul>
-<p>The goal with Cyber Signal was not to build another dashboard or intelligence platform. It was to build something much simpler:</p>
-<blockquote>
-<p>A clean, structured view of meaningful cyber events.</p>
-</blockquote>
 <!-- more -->
 
-<h2 id="cyber-signal-in-practice">Cyber Signal in Practice</h2>
-<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Cyber Signal event feed" data-desc-position="bottom"><img alt="Cyber Signal event feed" class="app-shot" loading="lazy" src="../../images/apps/signal/feed-overview.jpg"></a>
-<em>Filtered view showing incidents and activity in a single high-signal feed.</em></p>
-<h2 id="what-cyber-signal-is-and-isnt">What Cyber Signal Is (and Isn’t)</h2>
-<p>Cyber Signal is intentionally narrow in scope.</p>
+<h2 id="cyber-bluf-in-practice">Cyber BLUF in Practice</h2>
+<p><a class="glightbox" data-type="image" data-width="100%" data-height="auto" data-title="Cyber BLUF event feed" data-desc-position="bottom"><img alt="Cyber BLUF event feed" class="app-shot" loading="lazy" src="../../images/apps/bluf/cyber-bluf-event-feed.jpg"></a>
+<em>Filtered view showing named-victim cyber incidents in a high-signal feed.</em></p>
+<h2 id="what-cyber-bluf-is-and-isnt">What Cyber BLUF Is (and Isn’t)</h2>
+<p>Cyber BLUF is intentionally narrow in scope.</p>
 <p>It is:</p>
 <ul>
-<li>A <strong>single-page event brief</strong></li>
-<li>Focused on <strong>recent, meaningful cyber activity</strong></li>
+<li>A <strong>single-page cyber incident brief</strong></li>
+<li>Focused on <strong>recent, named-victim cyber incidents</strong></li>
 <li>Designed to be read in <strong>under a minute</strong></li>
+<li>Built around <strong>structured, deduplicated events</strong></li>
 </ul>
 <p>It is not:</p>
 <ul>
-<li>A SIEM  </li>
-<li>A threat intelligence platform  </li>
-<li>A vulnerability database  </li>
-<li>A full analytics tool  </li>
+<li>A SIEM</li>
+<li>A ransomware tracker</li>
+<li>A vulnerability feed</li>
+<li>A news aggregator</li>
+<li>A comprehensive threat intelligence platform</li>
 </ul>
 <p>The core idea is simple:</p>
 <blockquote>
 <p>The primary unit of value is the event, not the article.</p>
 </blockquote>
+<h2 id="product-floor">Product Floor</h2>
+<p>Every event shown in the feed must have a named victim organization.</p>
+<p>That constraint is intentional.</p>
+<p>Actor-only campaign reporting may still be useful threat intelligence, but it is not the product Cyber BLUF is trying to be.</p>
+<p>In simple terms:</p>
+<blockquote>
+<p>No named victim, no feed event.</p>
+</blockquote>
+<p>This reduces volume, but it protects trust in the output.</p>
 <h2 id="how-it-works">How It Works</h2>
-<p>At a high level, Cyber Signal takes messy, real-world reporting and turns it into structured events.</p>
+<p>At a high level, Cyber BLUF takes messy, real-world reporting and turns it into structured incident events.</p>
 <h3 id="pipeline">Pipeline</h3>
 <ol>
 <li><strong>Ingest</strong></li>
-<li>RSS feeds from curated sources (Krebs, BleepingComputer, The Record)</li>
+<li>RSS feeds from curated sources</li>
 <li>CISA KEV JSON feed</li>
+<li>CISA advisory RSS feed with strict filtering</li>
 <li>
-<p>CISA advisory RSS feed (with strict filtering)</p>
+<p>SEC EDGAR cybersecurity disclosures</p>
 </li>
 <li>
 <p><strong>Process</strong></p>
 </li>
-<li>Remove irrelevant or low-signal content  </li>
+<li>Remove irrelevant or low-signal content</li>
+<li>Filter out legal follow-ups, marketing, and general guidance</li>
 <li>
-<p>Filter out legal follow-ups, marketing, and general guidance  </p>
+<p>Separate incident reporting from advisory-style activity</p>
 </li>
 <li>
 <p><strong>Extract</strong></p>
 </li>
-<li>Identify victim (only when clearly stated)</li>
-<li>Infer attack type (ransomware, breach, exploitation, etc.)</li>
-<li>Assign industry only when supported by evidence  </li>
+<li>Identify named victim organizations when clearly stated</li>
+<li>Infer threat types such as ransomware, phishing, breach, or exploitation</li>
+<li>Capture geography, CVEs, and related structured fields</li>
 <li>
-<p>Normalize summaries into short, readable statements  </p>
+<p>Leave fields empty when confidence is weak</p>
 </li>
 <li>
 <p><strong>Cluster</strong></p>
 </li>
-<li>Group related articles into a single event  </li>
+<li>Group related articles into unified events</li>
+<li>Prevent duplicate reporting from appearing as separate incidents</li>
 <li>
-<p>Prevent duplication across repeated reporting  </p>
+<p>Compute deterministic confidence scores based on source quality and corroboration</p>
+</li>
+<li>
+<p><strong>Attribute</strong></p>
+</li>
+<li>Match threat actors against a curated knowledge base</li>
+<li>Require explicit attribution language before assigning actors</li>
+<li>
+<p>Discard generic or weak attribution</p>
 </li>
 <li>
 <p><strong>Serve</strong></p>
 </li>
-<li>Deliver a clean, structured event feed via API  </li>
-<li>Render a simple, scannable UI  </li>
+<li>Deliver a clean, structured event feed through the API</li>
+<li>Render a simple, scannable UI</li>
 </ol>
-<p>Everything is deterministic. No scoring engines, no heavy AI layers, no opaque logic.</p>
+<p>The pipeline is intentionally deterministic.</p>
+<p>AI may help fill small gaps, but deterministic logic remains the foundation of the system.</p>
+<h2 id="trust-and-impact">Trust and Impact</h2>
+<p>Cyber BLUF separates two concepts that often get blended together:</p>
+<ul>
+<li><strong>Trust</strong></li>
+<li><strong>Impact</strong></li>
+</ul>
+<p>A high-trust event is supported by stronger evidence, such as:</p>
+<ul>
+<li>Multiple corroborating sources</li>
+<li>Primary disclosures</li>
+<li>Trusted-alone sources like SEC EDGAR or Krebs on Security</li>
+</ul>
+<p>A high-impact event may involve:</p>
+<ul>
+<li>Ransomware</li>
+<li>Widespread exploitation</li>
+<li>Critical infrastructure</li>
+<li>Material disclosures</li>
+<li>Known threat actors</li>
+<li>Large-scale breaches</li>
+</ul>
+<p>These labels are independent.</p>
+<p>An event can be high impact but lower trust. It can also be high trust without being high impact.</p>
+<p>Separating the two makes the feed easier to interpret quickly.</p>
 <h2 id="tech-stack">Tech Stack</h2>
-<p>Cyber Signal is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.</p>
+<p>Cyber BLUF is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.</p>
 <table>
 <thead>
 <tr>
@@ -813,134 +896,147 @@
 <tr>
 <td>1</td>
 <td><strong>Backend</strong></td>
-<td>Python + Flask (modular services and blueprints)</td>
+<td>Python + Flask with Flask-SQLAlchemy and Flask-Migrate</td>
 </tr>
 <tr>
 <td>2</td>
 <td><strong>Database</strong></td>
-<td>PostgreSQL with SQLAlchemy ORM and Alembic migrations</td>
+<td>PostgreSQL</td>
 </tr>
 <tr>
 <td>3</td>
 <td><strong>Frontend</strong></td>
-<td>Vanilla JavaScript + minimal HTML/CSS</td>
+<td>Vanilla JavaScript with client-side filtering and localStorage</td>
 </tr>
 <tr>
 <td>4</td>
 <td><strong>Ingestion</strong></td>
-<td>RSS feeds (cyber news and CISA advisories) + JSON (CISA KEV)</td>
+<td>RSS feeds, JSON sources, and SEC EDGAR APIs</td>
 </tr>
 <tr>
 <td>5</td>
 <td><strong>Processing</strong></td>
-<td>Rule-based filtering for relevance and signal quality</td>
+<td>Rule-based filtering for relevance and incident quality</td>
 </tr>
 <tr>
 <td>6</td>
 <td><strong>Extraction</strong></td>
-<td>Deterministic parsing for victim, attack type, industry, and summary</td>
+<td>Deterministic parsing for victims, threat types, geography, and CVEs</td>
 </tr>
 <tr>
 <td>7</td>
 <td><strong>Clustering</strong></td>
-<td>Lightweight matching to group related articles into events</td>
+<td>Lightweight matching to group related articles into unified events</td>
 </tr>
 <tr>
 <td>8</td>
+<td><strong>Attribution</strong></td>
+<td>Deterministic threat-actor matching against a curated knowledge base</td>
+</tr>
+<tr>
+<td>9</td>
 <td><strong>Automation</strong></td>
 <td>Scheduled pipeline execution via Render Cron</td>
 </tr>
 <tr>
-<td>9</td>
+<td>10</td>
 <td><strong>Runtime</strong></td>
-<td>Gunicorn (WSGI server on Render, single web instance)</td>
+<td>Gunicorn</td>
 </tr>
 </tbody>
 </table>
 <h2 id="automation">Automation</h2>
-<p>The system runs on a simple scheduled loop:</p>
+<p>The system runs on a scheduled loop:</p>
 <ul>
-<li>Ingest new data  </li>
-<li>Process and extract signals  </li>
-<li>Cluster into events  </li>
-<li>Update the feed  </li>
+<li>Ingest new data</li>
+<li>Process and extract incident signals</li>
+<li>Cluster related reporting into events</li>
+<li>Attribute known actors where supported</li>
+<li>Update the feed</li>
 </ul>
-<p>The pipeline is executed on a fixed interval using a scheduled job.</p>
-<p>Each run records:</p>
-<ul>
-<li>start and finish time  </li>
-<li>success or failure  </li>
-<li>pipeline stage results  </li>
-</ul>
-<p>The goal was reliability and clarity, not complexity.</p>
+<p>The deployment model intentionally separates responsibilities.</p>
+<p>The web service serves the API and UI. It is fast and read-only on enriched data.</p>
+<p>The cron job runs the pipeline and is the only process permitted to mutate enriched event data.</p>
+<p>That operational boundary matters. It keeps request handling predictable and prevents accidental enrichment changes from normal web traffic.</p>
 <h2 id="working-with-real-world-data">Working with Real-World Data</h2>
-<p>The most challenging part of the build was not the UI or the pipeline.</p>
+<p>The most challenging part of the build was not the UI or the infrastructure.</p>
 <p>It was the data.</p>
-<p>Real-world cybersecurity reporting is inconsistent. Titles are vague. Summaries mix narrative with boilerplate. Advisory feeds include structured content that does not behave like normal articles.</p>
-<p>A few lessons that shaped the current approach:</p>
+<p>Real-world cybersecurity reporting is inconsistent. Titles are vague. Summaries mix narrative with boilerplate. Advisory feeds often contain structured content that does not behave like normal reporting.</p>
+<p>A few lessons shaped the current approach:</p>
 <ul>
 <li>
-<p><strong>Only extract what is clearly present</strong><br>
-  If a victim is not explicitly named, leave it empty  </p>
+<p><strong>Only extract what is clearly present</strong>
+  If a victim is not explicitly named, leave it empty.</p>
 </li>
 <li>
-<p><strong>Unknown is better than wrong</strong><br>
-  Avoid forcing industry or geography when the signal is weak  </p>
+<p><strong>Unknown is better than wrong</strong>
+  Avoid forcing geography, industry, or attribution when the signal is weak.</p>
 </li>
 <li>
-<p><strong>Short summaries matter</strong><br>
-  Long advisory text destroys scanability  </p>
+<p><strong>False positives are worse than false negatives</strong>
+  A smaller clean feed is more useful than a larger feed users cannot trust.</p>
 </li>
 <li>
-<p><strong>Not all sources are equal</strong><br>
-  Some feeds require filtering or simplification to be usable  </p>
+<p><strong>Not all sources are equal</strong>
+  Some sources can stand alone. Others require corroboration.</p>
+</li>
+<li>
+<p><strong>Fix the pipeline, not the symptom</strong>
+  If one article exposes a recurring issue, improve the pipeline stage rather than patching individual events.</p>
 </li>
 </ul>
-<p>One example was CISA advisories. Raw output was unusable in a feed. The solution was not to parse everything, but to reduce it to a single, clean sentence or drop it entirely.</p>
+<p>One example was advisory-style content. Much of it created noise instead of useful incident visibility. The solution was not to ingest more aggressively, but to become more selective about what qualified as a meaningful event.</p>
 <h2 id="design-philosophy">Design Philosophy</h2>
 <p>A few principles guided the build:</p>
 <ul>
-<li><strong>Clarity over completeness</strong>  </li>
-<li><strong>Consistency over cleverness</strong>  </li>
-<li><strong>Deterministic behavior over heuristics</strong>  </li>
-<li><strong>Signal over volume</strong>  </li>
+<li><strong>Deterministic logic first</strong></li>
+<li><strong>Quality over recall</strong></li>
+<li><strong>Structured events over raw articles</strong></li>
+<li><strong>Consistency over cleverness</strong></li>
+<li><strong>Clarity over completeness</strong></li>
 </ul>
 <p>The UI reflects that:</p>
 <ul>
-<li>minimal layout  </li>
-<li>structured cards  </li>
-<li>no unnecessary metrics  </li>
-<li>fast scanning  </li>
+<li>Minimal layout</li>
+<li>Structured cards</li>
+<li>Trust and impact labels</li>
+<li>Fast scanning</li>
+<li>No unnecessary metrics</li>
 </ul>
-<p>If something cannot be understood quickly, it does not belong.</p>
+<p>If something cannot be understood quickly, it probably does not belong.</p>
 <h2 id="current-state">Current State</h2>
-<p>At this stage, Cyber Signal is stable as an MVP:</p>
+<p>At this stage, Cyber BLUF is stable as an MVP:</p>
 <ul>
-<li>Live ingestion from multiple sources  </li>
-<li>Clean event clustering  </li>
-<li>Reliable scheduled updates  </li>
-<li>Structured, readable output  </li>
+<li>Live ingestion from curated sources</li>
+<li>Named-victim incident filtering</li>
+<li>Multi-source deduplication</li>
+<li>Deterministic confidence scoring</li>
+<li>SEC EDGAR disclosure integration</li>
+<li>Threat actor attribution where supported</li>
+<li>Reliable scheduled updates</li>
+<li>Structured, readable output</li>
 </ul>
-<p>It is not feature-complete, and that is intentional.</p>
+<p>It is intentionally constrained in scope.</p>
+<p>That constraint is part of the product design, not a limitation.</p>
 <h2 id="what-comes-next">What Comes Next</h2>
 <p>Future directions will likely focus on:</p>
 <ul>
-<li>Expanding source coverage carefully  </li>
-<li>Improving extraction where patterns repeat  </li>
-<li>Introducing a lightweight historical layer  </li>
-<li>Refining how events evolve over time  </li>
+<li>Expanding source coverage carefully</li>
+<li>Improving extraction normalization</li>
+<li>Refining event evolution over time</li>
+<li>Adding lightweight historical context</li>
+<li>Improving attribution quality where patterns repeat</li>
 </ul>
-<p>But any additions will follow the same constraint:</p>
+<p>But any additions will follow the same rule:</p>
 <blockquote>
 <p>If it increases complexity without improving clarity, it does not get added.</p>
 </blockquote>
 <h2 id="closing-thought">Closing Thought</h2>
-<p>There is a lot of value in stepping back from raw data and asking a simpler question:</p>
-<blockquote>
-<p>What actually matters right now?</p>
-</blockquote>
-<p>Cyber Signal is an attempt to answer that question in a consistent way.</p>
-<p>Still early, but it is starting to feel useful.</p>
+<p>A lot of cybersecurity tooling optimizes for volume.</p>
+<p>Cyber BLUF optimizes for clarity.</p>
+<p>That tradeoff influences almost every technical and product decision in the system.</p>
+<p>The goal is not to show everything.</p>
+<p>The goal is to make it easier to understand what actually matters right now.</p>
 <p>If you want to see how that looks in practice, you can explore it here:</p>
 <p><a href="https://signal.joehawley.com/" rel="noopener" target="_blank">https://signal.joehawley.com/</a></p>
 <p><em>Joe Hawley</em><br>

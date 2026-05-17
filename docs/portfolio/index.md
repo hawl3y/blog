@@ -11,10 +11,10 @@ Selected work and contributions over time
   A streamlined site using Next.js and Vercel, focused on maintainability.  
   [Learn more →](../articles/a-practical-stack-for-an-artist-website){ target="_new" rel="noopener" }
 
-- ![Cyber Signal](../images/portfolio/cyber-signal.png)
-  **Building Cyber Signal App** · 2026  
-  Cyber Signal provides a clean, structured view of meaningful cyber events.  
-  [Learn more →](../articles/building-cyber-signal){ target="_new" rel="noopener" }
+- ![Cyber BLUF](../images/portfolio/cyber-bluf.png)
+  **Building Cyber BLUF App** · 2026  
+  Cyber BLUF provides a clean, structured view of meaningful cyber events.  
+  [Learn more →](../articles/building-cyber-bluf){ target="_new" rel="noopener" }
 
 - ![Homelab for Graduate Research](../images/portfolio/homelab-test-bench.jpg)
   **Homelab for Graduate Research** · 2026  
