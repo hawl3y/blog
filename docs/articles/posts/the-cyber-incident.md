@@ -1,26 +1,22 @@
 ---
-title: Building Cyber BLUF
+title: Building The Cyber Incident
 date: 2026-04-30
 author: Joe Hawley
-description: A look at building Cyber BLUF, a focused cyber incident brief that turns fragmented reporting into structured, deduplicated named-victim events.
+description: The Cyber Incident organizes and correlates meaningful cyber events involving named organizations into a structured operational view built from reporting, disclosures, attribution, and contextual signals.
 tags: [cybersecurity, threat-intelligence, python, flask, data-pipelines, rss]
 ---
 
-# Building Cyber BLUF
+# Building The Cyber Incident
 
-## BLUF
-
-Cyber BLUF answers one narrow question:
-
-> What confirmed cyber incidents involving named organizations happened recently, and who is behind them?
+The Cyber Incident organizes and correlates meaningful cyber events involving named organizations into a structured operational view built from reporting, disclosures, attribution, and contextual signals.
 
 It is not a news aggregator, ransomware tracker, SIEM, vulnerability feed, or comprehensive threat intelligence platform.
 
-It is a curated incident intelligence surface built around structured, deduplicated events. Every event shown has a named victim. The unit of value is the event, not the article.
+It is a focused incident intelligence surface built around structured, deduplicated events. Every event shown has a named victim organization. The unit of value is the event, not the article.
 
-![Cyber BLUF](../../images/apps/bluf/cyber-bluf-stryker.jpg){ .app-shot }
+![The Cyber Incident](../../images/apps/incident/the-cyber-incident-stryker.jpg){ .app-shot }
 
-Cyber BLUF started from a simple frustration.
+The Cyber Incident started from a simple frustration.
 
 There is no shortage of cybersecurity information. News feeds, advisories, research blogs, vendor reports. But most of it is fragmented, repetitive, and difficult to interpret when you just want to understand:
 
@@ -31,19 +27,19 @@ There is no shortage of cybersecurity information. News feeds, advisories, resea
 
 <!-- more -->
 
-## Cyber BLUF in Practice
+## The Cyber Incident in Practice
 
-![Cyber BLUF event feed](../../images/apps/bluf/cyber-bluf-event-feed.jpg){ loading=lazy .app-shot }
-*Filtered view showing named-victim cyber incidents in a high-signal feed.*
+![The Cyber Incident event feed](../../images/apps/incident/the-cyber-incident-event-feed.jpg){ loading=lazy .app-shot }
+*Filtered view showing named-victim cyber incidents in a structured operational feed.*
 
-## What Cyber BLUF Is (and Isn’t)
+## What The Cyber Incident Is (and Isn’t)
 
-Cyber BLUF is intentionally narrow in scope.
+The Cyber Incident is intentionally narrow in scope.
 
 It is:
 
 - A **single-page cyber incident brief**
-- Focused on **recent, named-victim cyber incidents**
+- Focused on **recent, named-victim cyber events**
 - Designed to be read in **under a minute**
 - Built around **structured, deduplicated events**
 
@@ -65,7 +61,7 @@ Every event shown in the feed must have a named victim organization.
 
 That constraint is intentional.
 
-Actor-only campaign reporting may still be useful threat intelligence, but it is not the product Cyber BLUF is trying to be.
+Actor-only campaign reporting may still be useful threat intelligence, but it is not the product The Cyber Incident is trying to be.
 
 In simple terms:
 
@@ -75,7 +71,7 @@ This reduces volume, but it protects trust in the output.
 
 ## How It Works
 
-At a high level, Cyber BLUF takes messy, real-world reporting and turns it into structured incident events.
+At a high level, The Cyber Incident takes messy, real-world reporting and turns it into structured incident events.
 
 ### Pipeline
 
@@ -116,7 +112,7 @@ AI may help fill small gaps, but deterministic logic remains the foundation of t
 
 ## Trust and Impact
 
-Cyber BLUF separates two concepts that often get blended together:
+The Cyber Incident separates two concepts that often get blended together:
 
 - **Trust**
 - **Impact**
@@ -144,7 +140,7 @@ Separating the two makes the feed easier to interpret quickly.
 
 ## Tech Stack
 
-Cyber BLUF is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.
+The Cyber Incident is intentionally simple from a technology standpoint. The goal was a clean, deterministic pipeline rather than a complex system.
 
 | # | Component        | Details                                                               |
 |---|------------------|-----------------------------------------------------------------------|
@@ -226,7 +222,7 @@ If something cannot be understood quickly, it probably does not belong.
 
 ## Current State
 
-At this stage, Cyber BLUF is stable as an MVP:
+At this stage, The Cyber Incident is stable as an MVP:
 
 - Live ingestion from curated sources
 - Named-victim incident filtering
@@ -259,7 +255,7 @@ But any additions will follow the same rule:
 
 A lot of cybersecurity tooling optimizes for volume.
 
-Cyber BLUF optimizes for clarity.
+The Cyber Incident optimizes for clarity.
 
 That tradeoff influences almost every technical and product decision in the system.
 
