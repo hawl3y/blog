@@ -26,11 +26,6 @@ Selected work and contributions over time
   Accepted into Georgia Tech’s Master of Science in Cybersecurity program!  
   [Learn more →](https://www.linkedin.com/posts/joechawley_georgiatech-omscybersecurity-cybersecurity-activity-7401021029134839808-k-PJ/){ target="_new" rel="noopener" }
 
-- ![Trusty Potato - Cyber Awareness App](../images/portfolio/trusty.png)
-  **Building Trusty Potato App** · 2025  
-  Python/JS cybersecurity awareness quiz and phishing simulator.  
-  [Learn more →](../articles/building-trusty-potato/){ target="_new" rel="noopener" }
-
 - ![Editorial - Think Digital Partners](../images/portfolio/neurodiversity.jpg)
   **Embracing Autism Editorial** · 2025  
   How embracing my autism strengthened my cybersecurity career.  
