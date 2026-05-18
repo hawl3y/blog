@@ -6,7 +6,7 @@ description: The Cyber Incident organizes and correlates meaningful cyber events
 tags: [cybersecurity, threat-intelligence, python, flask, data-pipelines, rss]
 ---
 
-# Building The Cyber Incident
+## Building The Cyber Incident
 
 The Cyber Incident organizes and correlates meaningful cyber events involving named organizations into a structured operational view built from reporting, disclosures, attribution, and contextual signals.
 
