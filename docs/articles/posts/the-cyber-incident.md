@@ -265,7 +265,7 @@ The goal is to make it easier to understand what actually matters right now.
 
 If you want to see how that looks in practice, you can explore it here:
 
-[https://signal.joehawley.com/](https://signal.joehawley.com/){ target="_blank" rel="noopener" }
+[https://thecyberincident.com/](https://thecyberincident.com/){ target="_blank" rel="noopener" }
 
 *Joe Hawley*  
 Cybersecurity Director  
