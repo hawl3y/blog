@@ -48,7 +48,7 @@ nav:
   - Portfolio: portfolio/index.md
   - Articles: articles/index.md
   - About: about.md
-  - The Cyber Incident: https://signal.joehawley.com
+  - The Cyber Incident: https://thecyberincident.com
 
 extra_css:
   - stylesheets/extra.css
