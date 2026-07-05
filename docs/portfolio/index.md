@@ -6,15 +6,15 @@ Selected work and contributions over time
 
 <div class="grid cards" markdown>
 
+- ![Tradecraft Labs](../images/portfolio/tradecraft-labs.jpg)
+  **Public Research Platform** · 2026  
+  Independent research exploring the human side of cybersecurity governance.  
+  [Learn more →](../articles/building-tradecraft-labs){ target="_new" rel="noopener" }
+
 - ![Kiyomi Hawley](../images/portfolio/kiyomi-hawley.jpg)
   **Artist Website Build** · 2026  
   A streamlined site using Next.js and Vercel, focused on maintainability.  
   [Learn more →](../articles/a-practical-stack-for-an-artist-website){ target="_new" rel="noopener" }
-
-- ![Cyber BLUF](../images/portfolio/the-cyber-incident.png)
-  **Building The Cyber Incident** · 2026  
-  The Cyber Incident is a clean, structured view of meaningful cyber events.  
-  [Learn more →](../articles/building-the-cyber-incident){ target="_new" rel="noopener" }
 
 - ![Homelab for Graduate Research](../images/portfolio/homelab-test-bench.jpg)
   **Homelab for Graduate Research** · 2026  
