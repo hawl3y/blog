@@ -7,7 +7,7 @@ Selected work and contributions over time
 <div class="grid cards" markdown>
 
 - ![Tradecraft Labs](../images/portfolio/tradecraft-labs.jpg)
-  **Public Research Platform** · 2026  
+  **Cybersecurity Research Initiative** · 2026  
   Independent research exploring the human side of cybersecurity governance.  
   [Learn more →](../articles/building-tradecraft-labs){ target="_new" rel="noopener" }
 

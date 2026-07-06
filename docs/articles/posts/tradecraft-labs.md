@@ -16,7 +16,7 @@ It is a place to document how research develops over time.
 
 Every project includes the research question, literature review, working theories, practitioner interviews, research journal, and eventually the final paper. The goal is to make the research process itself visible rather than only publishing the final result.
 
-![Tradecraft Labs](../../images/apps/tradecraft/tradecraft-labs-research.jpg){ .app-shot }
+![Tradecraft Labs](../../images/apps/tradecraft/tradecraft-labs-home.jpg){ .app-shot }
 
 Tradecraft Labs started from a simple observation.
 
