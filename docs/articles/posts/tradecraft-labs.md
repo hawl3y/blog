@@ -70,7 +70,7 @@ The final paper becomes one artifact among many rather than the only output.
 
 The platform is intentionally designed so future research projects can follow the same structure.
 
-## Project 001
+## BISO Governance
 
 The first project hosted on Tradecraft Labs is:
 
@@ -104,7 +104,7 @@ The content should always remain the focus.
 
 ## Current State
 
-Tradecraft Labs is currently supporting the active research phase of Project 001.
+Tradecraft Labs is currently supporting the active research phase of BISO Governance.
 
 Completed work includes:
 
